@@ -6,23 +6,19 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 
-import com.baidu.mapapi.BMapManager;
-import com.baidu.mapapi.GeoPoint;
-import com.baidu.mapapi.MapView;
-import com.baidu.mapapi.MyLocationOverlay;
 import com.limon.location.BestLocationListener;
 
 /**
- * µØÍ¼°æÎ»ÖÃ
+ * ï¿½ï¿½Í¼ï¿½ï¿½Î»ï¿½ï¿½
  * 
  * @author Administrator
  * 
  */
 public class MyViewLocatActivity extends BaseActivity {
 
-	MapView mMapView = null;
-	BestLocationListener mLocationListener = null;// onResumeÊ±×¢²á´Ëlistener£¬onPauseÊ±ÐèÒªRemove
-	MyLocationOverlay mLocationOverlay = null; // ¶¨Î»Í¼²ã
+	//MapView mMapView = null;
+	BestLocationListener mLocationListener = null;// onResumeÊ±×¢ï¿½ï¿½ï¿½listenerï¿½ï¿½onPauseÊ±ï¿½ï¿½ÒªRemove
+	//MyLocationOverlay mLocationOverlay = null; // ï¿½ï¿½Î»Í¼ï¿½ï¿½
 	ProgressDialog progressDialog = null;
 
 	@Override
@@ -31,34 +27,34 @@ public class MyViewLocatActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.mapviewlocation);
 		mContext = getApplicationContext();
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		if (app.mBMapMan == null) {
 			app.mBMapMan = new BMapManager(getApplication());
 			app.mBMapMan.init(app.mStrKey, new BMapApi.MyGeneralListener());
 		}
 		app.mBMapMan.start();
-		// Èç¹ûÊ¹ÓÃµØÍ¼SDK£¬Çë³õÊ¼»¯µØÍ¼Activity
+		// ï¿½ï¿½ï¿½Ê¹ï¿½Ãµï¿½Í¼SDKï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Í¼Activity
 		super.initMapActivity(app.mBMapMan);
 
 		mMapView = (MapView) findViewById(R.id.bmapView);
 		mMapView.setBuiltInZoomControls(true);
-		// ÉèÖÃÔÚËõ·Å¶¯»­¹ý³ÌÖÐÒ²ÏÔÊ¾overlay,Ä¬ÈÏÎª²»»æÖÆ
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½Ê¾overlay,Ä¬ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		mMapView.setDrawOverlayWhenZooming(true);
 
-		// Ìí¼Ó¶¨Î»Í¼²ã
+		// ï¿½ï¿½Ó¶ï¿½Î»Í¼ï¿½ï¿½
 		mLocationOverlay = new MyLocationOverlay(this, mMapView);
 		mMapView.getOverlays().add(mLocationOverlay);
-
-		// ×¢²á¶¨Î»ÊÂ¼þ
+*/
+		// ×¢ï¿½á¶¨Î»ï¿½Â¼ï¿½
 		mLocationListener = new BestLocationListener() {
 
 			@Override
 			public void onLocationChanged(Location location) {
 				if (location != null) {
-					GeoPoint pt = new GeoPoint(
+					/*GeoPoint pt = new GeoPoint(
 							(int) (location.getLatitude() * 1e6),
 							(int) (location.getLongitude() * 1e6));
-					mMapView.getController().animateTo(pt);
+					mMapView.getController().animateTo(pt);*/
 					GUIAction(location.getLongitude(), location.getLatitude());
 				}
 			}
@@ -68,31 +64,26 @@ public class MyViewLocatActivity extends BaseActivity {
 
 	@Override
 	protected void onPause() {
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		app.mBMapMan.getLocationManager().removeUpdates(mLocationListener);
 		mLocationOverlay.disableMyLocation();
-		mLocationOverlay.disableCompass(); // ¹Ø±ÕÖ¸ÄÏÕë
-		app.mBMapMan.stop();
+		mLocationOverlay.disableCompass(); // ï¿½Ø±ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½
+		app.mBMapMan.stop();*/
 		super.onPause();
 	}
 
 	@Override
 	protected void onResume() {
-		BMapApi app = (BMapApi) this.getApplication();
-		// ×¢²á¶¨Î»ÊÂ¼þ£¬¶¨Î»ºó½«µØÍ¼ÒÆ¶¯µ½¶¨Î»µã
+		/*BMapApi app = (BMapApi) this.getApplication();
+		// ×¢ï¿½á¶¨Î»ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ó½«µï¿½Í¼ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
 		app.mBMapMan.getLocationManager().requestLocationUpdates(
 				mLocationListener);
 		mLocationOverlay.enableMyLocation();
-		mLocationOverlay.enableCompass(); // ´ò¿ªÖ¸ÄÏÕë
-		app.mBMapMan.start();
+		mLocationOverlay.enableCompass(); // ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½
+		app.mBMapMan.start();*/
 		super.onResume();
 	}
 
-	@Override
-	protected boolean isRouteDisplayed() {
-		// TODO Auto-generated method stub
-		return false;
-	}
 
 	public void GUIAction(final double lon, final double lat) {
 		progressDialog = ProgressDialog.show(getParent(), "", mContext

@@ -34,10 +34,6 @@ import android.widget.ProgressBar;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
-import com.baidu.mapapi.BMapManager;
-import com.baidu.mobads.AdSettings;
-import com.baidu.mobads.AdView;
-import com.baidu.mobads.AdViewListener;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.limon.bean.LocationInfo;
@@ -132,12 +128,12 @@ public class MyInfoActivity extends BaseActivity implements RequestListener {
 		progressView = (TextView) findViewById(R.id.user_details_level_progress_text);
 		imageView = (ImageView) findViewById(R.id.user_details_icon);
 		progressBar = (ProgressBar) findViewById(R.id.user_details_level_progress);
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		if (app.mBMapMan == null) {
 			app.mBMapMan = new BMapManager(getApplication());
 			app.mBMapMan.init(app.mStrKey, new BMapApi.MyGeneralListener());
 		}
-		app.mBMapMan.start();
+		app.mBMapMan.start();*/
 		SimpleAdapter adapter = new SimpleAdapter(this, fillMap(),
 				R.layout.itemdashboard, new String[] { "texts", "images" },
 				new int[] { R.id.text, R.id.icon });
@@ -181,7 +177,7 @@ public class MyInfoActivity extends BaseActivity implements RequestListener {
 					break;
 				case 3:
 					intent = new Intent();
-					intent.setClass(mContext, RoutePlanActivity.class);
+					intent.setClass(mContext, BadgesListActivity.class);
 					v = GroupFour.group
 							.getLocalActivityManager()
 							.startActivity(
@@ -786,18 +782,18 @@ public class MyInfoActivity extends BaseActivity implements RequestListener {
 
 	@Override
 	protected void onPause() {
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		app.mBMapMan.getLocationManager().removeUpdates(mLocationListener);
-		app.mBMapMan.stop();
+		app.mBMapMan.stop();*/
 		super.onPause();
 	}
 
 	@Override
 	protected void onResume() {
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		app.mBMapMan.getLocationManager().requestLocationUpdates(
 				mLocationListener);
-		app.mBMapMan.start();
+		app.mBMapMan.start();*/
 		getPersonInfo();
 		super.onResume();
 	}

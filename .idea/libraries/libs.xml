@@ -5,12 +5,8 @@
       <root url="jar://$PROJECT_DIR$/libs/appflood_cn_v1.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/mongo-2.6.5.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/Baidu_MobAds_SDK_3.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/google-gson-stream-1.7.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/baidumapapi.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/commons-httpclient-3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/locSDK_3.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/locSDk.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/Analytics_Android_SDK_3.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/httpmime-4.1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/Analytics_Android_SDK_3.1.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/Mars.jar!/" />
@@ -19,10 +15,7 @@
       <root url="jar://$PROJECT_DIR$/libs/ksoap2-android-assembly-3.0.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/signpost-commonshttp4-1.2.1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/Msc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/gson-1.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/fastjson-1.1.6.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/ksoap2-android-assembly-2.5.8.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/baidumapapi_v2_0_0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/Umeng-Android-SDK-SnsService.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/umeng_appnetwork_android_sdk.jar!/" />
     </CLASSES>

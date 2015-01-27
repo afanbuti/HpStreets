@@ -3,7 +3,7 @@ package com.limon.make;
 import java.io.File;
 import java.util.Comparator;
 
-import com.baidu.mapapi.MapActivity;
+
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -27,7 +27,7 @@ import android.provider.MediaStore.MediaColumns;
  * @author Administrator
  * 
  */
-public class BaseActivity extends MapActivity {
+public class BaseActivity extends Activity {
 
 	protected Activity instance;
 	protected Context mContext;
@@ -282,9 +282,5 @@ public class BaseActivity extends MapActivity {
 			}
 		}
 	}
-	@Override
-	protected boolean isRouteDisplayed() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+
 }

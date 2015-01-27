@@ -27,13 +27,6 @@ import android.os.Message;
 import android.preference.PreferenceManager;
 import android.widget.Toast;
 
-import com.baidu.mapapi.BMapManager;
-import com.baidu.mapapi.GeoPoint;
-import com.baidu.mapapi.ItemizedOverlay;
-import com.baidu.mapapi.MapView;
-import com.baidu.mapapi.MyLocationOverlay;
-import com.baidu.mapapi.OverlayItem;
-import com.baidu.mapapi.Projection;
 import com.limon.bean.FriendInfo;
 import com.limon.common.AsyncImageLoader;
 import com.limon.common.JsonDataGetApi;
@@ -48,9 +41,9 @@ import com.mobclick.android.MobclickAgent;
  * 
  */
 public class MyViewFriendsActivity extends BaseActivity {
-	private MapView mMapView = null;
+	//private MapView mMapView = null;
 	private BestLocationListener mLocationListener = null;// onResumeʱע���listener��onPauseʱ��ҪRemove
-	private MyLocationOverlay mLocationOverlay = null; // ��λͼ��
+	//private MyLocationOverlay mLocationOverlay = null; // ��λͼ��
 	private ProgressDialog progressDialog = null;
 	private String ispublic, headurl;
 	private String uname, uid;
@@ -67,7 +60,7 @@ public class MyViewFriendsActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.mapviewfriends);
 		mContext = getApplicationContext();
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		if (app.mBMapMan == null) {
 			app.mBMapMan = new BMapManager(getApplication());
 			app.mBMapMan.init(app.mStrKey, new BMapApi.MyGeneralListener());
@@ -84,7 +77,7 @@ public class MyViewFriendsActivity extends BaseActivity {
 		mLocationOverlay = new MyLocationOverlay(this, mMapView);
 		mLocationOverlay.enableMyLocation(); // ���ö�λ
 		mLocationOverlay.enableCompass(); // ����ָ����
-		mMapView.getOverlays().add(mLocationOverlay);
+		mMapView.getOverlays().add(mLocationOverlay);*/
 		SharedPreferences settings = PreferenceManager
 				.getDefaultSharedPreferences(MyViewFriendsActivity.this);
 		userId = settings.getString("UserID", "");
@@ -105,10 +98,10 @@ public class MyViewFriendsActivity extends BaseActivity {
 			@Override
 			public void onLocationChanged(Location location) {
 				if (location != null) {
-					GeoPoint pt = new GeoPoint(
+					/*GeoPoint pt = new GeoPoint(
 							(int) (location.getLatitude() * 1e6),
 							(int) (location.getLongitude() * 1e6));
-					mMapView.getController().animateTo(pt);
+					mMapView.getController().animateTo(pt);*/
 					// getMyFriendsThread(location.getLongitude(), location
 					// .getLatitude());
 				}
@@ -123,12 +116,12 @@ public class MyViewFriendsActivity extends BaseActivity {
 	}
 
 	private void addOverlays(List<FriendInfo> list) {
-		GeoPoint point;
-		OverItemT itemizedoverlay;
+		//GeoPoint point;
+		//OverItemT itemizedoverlay;
 		Drawable drawable;
 
 		Bitmap bitmap1 = null;
-		OverlayItem overlayitem;
+		//OverlayItem overlayitem;
 		// List<Overlay> mapOverlays;
 		// MyLocationOverlay myLocationOverlay;
 		String img = BMapApi.getInstance().getImageUrl();
@@ -208,7 +201,7 @@ public class MyViewFriendsActivity extends BaseActivity {
 			drawable = new BitmapDrawable(MediaUtils.createBitmap(bitmap,
 					bitmap1, 2));
 			// Log.i("ddd","width"+drawable.getBounds().width());
-			itemizedoverlay = new OverItemT(drawable, this);
+			/*itemizedoverlay = new OverItemT(drawable, this);
 			point = // new GeoPoint((int)1000000
 			// *Double.parseDouble(list.get(i).getLat()),(int)1000000
 			// *Double.parseDouble(list.get(i).getLat()));
@@ -224,38 +217,34 @@ public class MyViewFriendsActivity extends BaseActivity {
 			// myLocationOverlay.enableCompass();
 			// myLocationOverlay.enableMyLocation();
 			mMapView.getOverlays().add(mLocationOverlay);
-			mMapView.getOverlays().add(itemizedoverlay);
+			mMapView.getOverlays().add(itemizedoverlay);*/
 
 		}
 	}
 
 	@Override
 	protected void onPause() {
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		app.mBMapMan.getLocationManager().removeUpdates(mLocationListener);
 		mLocationOverlay.disableMyLocation();
 		mLocationOverlay.disableCompass(); // �ر�ָ����
-		app.mBMapMan.stop();
+		app.mBMapMan.stop();*/
 		super.onPause();
 	}
 
 	@Override
 	protected void onResume() {
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		// ע�ᶨλ�¼�����λ�󽫵�ͼ�ƶ�����λ��
 		app.mBMapMan.getLocationManager().requestLocationUpdates(
 				mLocationListener);
 		mLocationOverlay.enableMyLocation();
 		mLocationOverlay.enableCompass(); // ��ָ����
-		app.mBMapMan.start();
+		app.mBMapMan.start();*/
 		super.onResume();
 	}
 
-	@Override
-	protected boolean isRouteDisplayed() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+
 
 	// public void getMyFriendsThread(final double lon, final double lat) {
 	// progressDialog = ProgressDialog.show(this, "", mContext.getResources()
@@ -341,7 +330,7 @@ public class MyViewFriendsActivity extends BaseActivity {
 					"MyViewFriends_userInfoList.add:" + e.toString());
 		}
 	}
-
+/*
 	class OverItemT extends ItemizedOverlay<OverlayItem> {
 		private List<OverlayItem> GeoList = new ArrayList<OverlayItem>();
 		private Context mContext;
@@ -420,7 +409,7 @@ public class MyViewFriendsActivity extends BaseActivity {
 			return true;
 		}
 	}
-
+*/
 	private final Handler handler = new Handler() {
 		@Override
 		public void handleMessage(Message msg) {

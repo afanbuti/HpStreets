@@ -9,8 +9,7 @@ import android.content.Context;
 import android.os.Handler;
 import android.widget.Toast;
 
-import com.baidu.mapapi.BMapManager;
-import com.baidu.mapapi.MKGeneralListener;
+import com.baidu.mapapi.SDKInitializer;
 import com.limon.common.Caller;
 import com.limon.common.ImageCache;
 import com.limon.common.RequestCache;
@@ -20,7 +19,7 @@ public class BMapApi extends Application {
 
 	
 	// 百度MapAPI的管理类
-	BMapManager mBMapMan = null;
+	//BMapManager mBMapMan = null;
 	protected Context mContext;
 	/**
 	 * Image cache, one for all activities and orientations
@@ -74,7 +73,7 @@ public class BMapApi extends Application {
 	// "4FCDA450A91EC3C5D4451DD63766D240F56B6B07E2C70296E2FF6E380CAF87D6E4193625F9823376CA344D1B277E026A";
 	public static final String IMAGE_URL = "http://www.hpstreets.com/res/";
 	public static final String IURL = "http://www.hpstreets.com";
-
+/*
 	// 常用事件监听，用来处理通常的网络错误，授权验证错误等
 	static class MyGeneralListener implements MKGeneralListener {
 		@Override
@@ -97,16 +96,17 @@ public class BMapApi extends Application {
 		}
 
 	}
-
+*/
 	@Override
 	public void onCreate() {
 		super.onCreate();
 		instance = this;
-		initEngineManager(this);
+		//initEngineManager(this);
 		mImageCache = new ImageCache();
 		mRequestCache = new RequestCache();
-		Caller.setRequestCache(mRequestCache);		
-	}
+		Caller.setRequestCache(mRequestCache);
+		SDKInitializer.initialize(this);
+	}/*
 	public void initEngineManager(Context context) {
         if (mBMapMan == null) {
             mBMapMan = new BMapManager(context);
@@ -116,7 +116,7 @@ public class BMapApi extends Application {
             //Toast.makeText(DemoApplication.getInstance().getApplicationContext(), "BMapManager  初始化错误!", Toast.LENGTH_LONG).show();
         }
 	}
-	
+	*/
 
 	/**
 	 * Access to global image cache across Activity instances
@@ -171,11 +171,11 @@ public class BMapApi extends Application {
 	@Override
 	// 建议在您app的退出之前调用mapadpi的destroy()函数，避免重复初始化带来的时间消耗
 	public void onTerminate() {
-		// TODO Auto-generated method stub
+		/*// TODO Auto-generated method stub
 		if (mBMapMan != null) {
 			mBMapMan.destroy();
 			mBMapMan = null;
-		}
+		}*/
 		super.onTerminate();
 	}
 

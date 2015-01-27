@@ -23,7 +23,6 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.baidu.mapapi.BMapManager;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.limon.bean.LocationInfo;
@@ -74,14 +73,14 @@ public class PlaceSubmitActivity extends BaseActivity {
 			finish();
 			unregisterReceiver(exitre);
 		}
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		if (app.mBMapMan == null) {
 			app.mBMapMan = new BMapManager(getApplication());
 			app.mBMapMan.init(app.mStrKey, new BMapApi.MyGeneralListener());
 		}
 		// app.mBMapMan.getLocationManager().requestLocationUpdates(
 		// mLocationListener);
-		app.mBMapMan.start();
+		app.mBMapMan.start();*/
 		addrEdit = (EditText) findViewById(R.id.AddressEditText);
 		cateSpinner = (Spinner) findViewById(R.id.CategorySpinner);
 		nameEdit = (EditText) findViewById(R.id.NameEditText);
@@ -140,15 +139,15 @@ public class PlaceSubmitActivity extends BaseActivity {
 
 	@Override
 	protected void onPause() {
-		BMapApi app = (BMapApi) this.getApplication();
-		app.mBMapMan.stop();
+		/*BMapApi app = (BMapApi) this.getApplication();
+		app.mBMapMan.stop();*/
 		super.onPause();
 	}
 
 	@Override
 	protected void onResume() {
-		BMapApi app = (BMapApi) this.getApplication();
-		app.mBMapMan.start();
+		/*BMapApi app = (BMapApi) this.getApplication();
+		app.mBMapMan.start();*/
 		super.onResume();
 	}
 

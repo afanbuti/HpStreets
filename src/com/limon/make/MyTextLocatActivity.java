@@ -20,7 +20,6 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import com.baidu.mapapi.BMapManager;
 import com.limon.common.JsonDataGetApi;
 import com.limon.common.StringUtils;
 import com.limon.location.BestLocationListener;
@@ -52,12 +51,12 @@ public class MyTextLocatActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.listplaces);
 		mContext = getApplicationContext();
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		if (app.mBMapMan == null) {
 			app.mBMapMan = new BMapManager(getApplication());
 			app.mBMapMan.init(app.mStrKey, new BMapApi.MyGeneralListener());
 		}
-		app.mBMapMan.start();
+		app.mBMapMan.start();*/
 		mListView = (ListView) findViewById(R.id.listView);
 		lInfos = new ArrayList<Map<String, Object>>();
 		/*
@@ -183,26 +182,21 @@ public class MyTextLocatActivity extends BaseActivity {
 
 	@Override
 	protected void onPause() {
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		app.mBMapMan.getLocationManager().removeUpdates(mLocationListener);
-		app.mBMapMan.stop();
+		app.mBMapMan.stop();*/
 		super.onPause();
 	}
 
 	@Override
 	protected void onResume() {
-		BMapApi app = (BMapApi) this.getApplication();
+		/*BMapApi app = (BMapApi) this.getApplication();
 		app.mBMapMan.getLocationManager().requestLocationUpdates(
 				mLocationListener);
-		app.mBMapMan.start();
+		app.mBMapMan.start();*/
 		super.onResume();
 	}
 
-	@Override
-	protected boolean isRouteDisplayed() {
-		// TODO Auto-generated method stub
-		return false;
-	}
 
 	private void getSomething(final String lon, final String lat) {
 		LocationListTask task = new LocationListTask(this);

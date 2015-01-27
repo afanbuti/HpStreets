@@ -11,7 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 public class BestLocationListener extends Observable implements
-		com.baidu.mapapi.LocationListener, android.location.LocationListener {
+		/*com.baidu.mapapi.LocationListener, */android.location.LocationListener {
 	private static final String TAG = "BestLocationListener";
 	private static final boolean DEBUG = false;
 	public CellLocationManager cellLocationManager;
