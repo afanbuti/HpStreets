@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple_start">#ff9b256b</color>
+    <color name="purple_end">#ff5d2761</color>
+    <color name="blue_start">#ff0f93b8</color>
+    <color name="blue_end">#ff0f93b8</color>
+    <color name="lgrey_start">#ffbfc0c0</color>
+    <color name="lgrey_end">#ffaeb2b7</color>
+    <color name="dgrey_start">#ff4e4f50</color>
+    <color name="dgrey_end">#ff2c3137</color>
+    <color name="item_grey_start">#ffb4b8ba</color>
+    <color name="item_grey_end">#ff62707c</color>
+    <color name="black_start">#ff333333</color>
+    <color name="black_end">#ff181818</color>
+    <color name="grey_start">#ffeeeeee</color>
+    <color name="grey_end">#ffcdcacd</color>
+    <color name="blue_badges_mayor">#ff095b72</color>
+    <color name="vlgrey">#ffeeeeee</color>
+    <color name="color_score_list_adapter_highlight">#ffeeeeee</color>
+    <color name="color_score_mayor_section_background">#ffdddddd</color>
+    <color name="info_background">#ff0f93b8</color>
+    <color name="error_background">#ff0f93b8</color>
+    <color name="yellow_start">#fff8f5a9</color>
+    <color name="yellow_end">#fff8f5a9</color>
+    <color name="green_start">#ffbfff03</color>
+    <color name="green_end">#ff4a9a10</color>
+    <color name="link">#ff438ba6</color>
+    <color name="estate_section_background">#8affffff</color>
+    <color name="orange_start">#ffffd101</color>
+    <color name="orange_end">#ffff7300</color>
+    <color name="dgreen_start">#ff618500</color>
+    <color name="dgreen_end">#ff244d09</color>
+    <color name="dorange_start">#ff816900</color>
+    <color name="dorange_end">#ff803901</color>
+    <color name="user_details_section_background">#3affffff</color>
+    <color name="shadow">#ff111111</color>
+    <color name="info">#ffffaa00</color>
+    <color name="tabbar_1">#a8d3ff</color>
+    <color name="tabbar_2">#ffffff</color>
+    <color name="listtitle">#ff3b8ed4</color>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/main_layout_arrow" android:layout_width="fill_parent" android:layout_height="@dimen/main_fc_arrow_size">
+        <ImageView android:id="@+id/forecast_imageview_arrow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/forecast_arrow" android:scaleType="fitXY" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/weather_layout_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <include android:id="@+id/weather_forecast_1" layout="@layout/weather_forecast_item" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/weather_layout_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <include android:id="@+id/weather_forecast_2" layout="@layout/weather_forecast_item" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/weather_layout_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <include android:id="@+id/weather_forecast_3" layout="@layout/weather_forecast_item" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/weather_layout_4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <include android:id="@+id/weather_forecast_4" layout="@layout/weather_forecast_item" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/public_mood_edit_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@id/user_details_header"
+            android:layout_width="fill_parent"
+            android:layout_height="88.0dip"
+            android:background="@color/user_details_section_background" >
+
+            <RelativeLayout
+                android:id="@id/user_icon_region"
+                android:layout_width="72.0dip"
+                android:layout_height="72.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8.0dip" >
+
+                <ImageView
+                    android:id="@id/user_details_icon"
+                    android:layout_width="80.0dip"
+                    android:layout_height="80.0dip"
+                    android:background="@drawable/photo_background"
+                    android:padding="1.0dip" />
+
+                <ImageView
+                    android:id="@id/user_details_role_icon"
+                    android:layout_width="34.0dip"
+                    android:layout_height="34.0dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@id/user_name_region"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/user_details_level_progress"
+                android:layout_marginBottom="4.0dip"
+                android:layout_toRightOf="@id/user_icon_region"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip" >
+
+                <TextView
+                    android:id="@id/user_details_name"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingRight="2.0dip"
+                    android:singleLine="true"
+                    android:text="name"
+                    android:textColor="@color/listtitle"
+                    android:textSize="18.0dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@id/user_details_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/user_details_name"
+                    android:text="level"
+                    android:textColor="@color/orange_start"
+                    android:textSize="18.0dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/public_mood_edit_bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/SignUpButton"
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:drawableLeft="@drawable/ic_menu_invite_friends"
+                android:enabled="true"
+                android:text="@string/submit_joinus" />
+
+            <Button
+                android:id="@+id/JoinButton"
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:drawableLeft="@drawable/ic_menu_invite_friends"
+                android:enabled="true"
+                android:text="@string/submit_joinok" />
+
+            <Button
+                android:id="@+id/QuietButton"
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:drawableLeft="@drawable/query"
+                android:enabled="true"
+                android:text="@string/btnquiet" />
+
+            <Button
+                android:id="@+id/ReturnButton"
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:drawableLeft="@drawable/ic_menu_back"
+                android:enabled="true"
+                android:text="@string/btnreturn" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

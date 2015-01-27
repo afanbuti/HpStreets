@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/layout_test" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/weather_current_layout_margin_left" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/cityview_icon1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                <ImageView android:id="@+id/cityview_icon2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                <TextView android:id="@+id/cityview_curr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_current_layout_margin_top" />
+                <TextView android:id="@+id/cityview_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_current_layout_margin_top" />
+                <!-- <ImageView android:id="@+id/weather_pm_split_icon_size" android:layout_width="@dimen/weather_pm_split_icon_size" android:layout_height="2.0px" android:layout_marginTop="10.0dip" android:src="@drawable/pm_split_line" android:scaleType="fitXY" /> -->
+                <!-- <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cityview_pm" android:background="@drawable/button_press_alarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:layout_width="@dimen/weather_alert_icon_back_width" android:layout_height="@dimen/weather_alert_icon_back_height" android:src="@drawable/pm25_back" android:scaleType="fitXY" />
+                        <ImageView android:layout_gravity="center" android:layout_width="@dimen/pm25_icon_size" android:layout_height="@dimen/pm25_icon_size" android:src="@drawable/aqi_icon" android:scaleType="fitXY" />
+                    </FrameLayout>
+                    <TextView android:textSize="@dimen/weather_alert_text_size" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/city_view_pm_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/alert_arrow" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cityview_alert" android:background="@drawable/button_press_alarm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@+id/cityview_alert_icon_back" android:layout_width="@dimen/weather_alert_icon_back_width" android:layout_height="@dimen/weather_alert_icon_back_height" android:src="@drawable/alertdef_yellow" android:scaleType="fitXY" />
+                        <ImageView android:layout_gravity="center" android:id="@+id/cityview_alert_icon" android:layout_width="@dimen/weather_alert_icon_size" android:layout_height="@dimen/weather_alert_icon_size" android:src="@drawable/alertdef_14" android:scaleType="fitXY" />
+                    </FrameLayout>
+                    <TextView android:textSize="@dimen/weather_alert_text_size" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/cityview_alert_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="台风蓝色预警" android:singleLine="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/alert_arrow" />
+                </LinearLayout> -->
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_margin_bottom">
+                <include android:layout_gravity="bottom" android:id="@+id/layout_cityview_detail" layout="@layout/weather_current_info" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/weather_current_layout_margin_left" android:layout_marginBottom="@dimen/main_margin_bottom" android:layout_weight="1.4">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_weight="1.2">
+                <TextView android:textSize="@dimen/weather_current_info_size_small" android:textColor="@color/white" android:layout_gravity="right" android:id="@+id/cityview_public" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <LinearLayout android:layout_gravity="right" android:id="@+id/cityview_update" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/weather_current_info_size_small" android:textColor="@color/white" android:id="@+id/cityview_updating" android:paddingLeft="@dimen/workspace_title_pading_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weather_updating" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include android:id="@+id/layout_forecast" layout="@layout/weather_forecast_info" />
+            </LinearLayout>
+        </LinearLayout> -->
+    </LinearLayout>
+</LinearLayout>

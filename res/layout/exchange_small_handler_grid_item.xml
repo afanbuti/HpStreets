@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exchange_scroll_view_item_id"
+    android:layout_width="90dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/exchange_grid_background_selector"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/exchange_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/exchange_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="开心听"
+        android:textColor="#000000"
+        android:textSize="14dp" >
+    </TextView>
+
+</LinearLayout>

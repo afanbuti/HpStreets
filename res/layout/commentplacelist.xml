@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/moodcommentItem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/public_mood_edit_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="6.0dip" >
+
+        <RelativeLayout
+            android:layout_width="44.0dip"
+            android:layout_height="44.0dip"
+            android:layout_marginTop="3.0dip" >
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="44.0dip"
+                android:layout_height="44.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="6.0dip"
+                android:layout_marginTop="8.0dip"
+                android:background="@drawable/photo_background"
+                android:duplicateParentState="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/umeng_share_logo_sina" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="#ff3b8ed4" />
+            <!--
+				<TextView android:textSize="14px" android:textColor="#ff404040"
+				android:id="@+id/message" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:lineSpacingExtra="8.0dip" /> <TextView
+				android:textSize="12.0dip" android:textColor="#ffaaaaaa"
+				android:id="@+id/dateline" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+            -->
+
+            <Button
+                android:id="@+id/SignUpButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_setting_off"
+                android:enabled="true"
+                android:text="@string/checkin"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/LinearLayoutTitle"
+        style="@style/title_background"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip" >
+
+        <TextView
+            android:id="@+id/TextViewBack"
+            style="@style/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10.0dip"
+            android:text="@string/place_commentlist"
+            android:textSize="16.0dip" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_gravity="center"
+            android:src="@drawable/action_back" />
+
+        <ImageView
+            android:id="@+id/incr"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_gravity="right"
+            android:src="@drawable/action_decr" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/toolbarLayout"
+        android:layout_margin="0px"
+        android:alwaysDrawnWithCache="false"
+        android:background="#BBFFFFFF"
+        android:cacheColorHint="#00000000"
+        android:divider="?android:attr/listDivider"
+        android:dividerHeight="2px"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+</LinearLayout>

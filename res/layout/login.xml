@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg" >
+
+    <ImageView
+        android:id="@+id/nullimage"
+        android:layout_width="fill_parent"
+        android:layout_height="80dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12.0dip" >
+
+        <EditText
+            android:id="@+id/LogName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sign_name"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/LogPass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="76dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" >
+
+            <TableRow android:gravity="center" >
+
+                <Button
+                    android:id="@+id/LoginBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_1_n"
+                    android:text="@string/login" />
+
+                <Button
+                    android:id="@+id/RegBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_3_n"
+                    android:text="@string/signup" />
+
+                <Button
+                    android:id="@+id/ReturnButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:text="@string/btnreturn" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/SLoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login"
+            android:text="" />
+    </LinearLayout>
+
+</RelativeLayout>

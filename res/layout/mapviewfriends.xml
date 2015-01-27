@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="44.0dip"
+        android:layout_height="44.0dip"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <com.baidu.mapapi.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:clickable="true" />
+
+    <com.limon.widget.ActionFriendsMapView
+        android:id="@+id/actionView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true" />
+
+</LinearLayout>

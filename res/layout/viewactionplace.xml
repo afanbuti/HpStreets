@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/vlgrey"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <ImageView
+            android:id="@+id/incr"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/action_add_venue_off" android:contentDescription="@string/venues_btn" /><TextView
+                    android:id="@+id/incrt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/venues_btn"
+                    android:textColor="#ffaaaaaa"
+                    android:textSize="14.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <ImageView
+            android:id="@+id/decr"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/action_map_tab" android:contentDescription="@string/dt" /><TextView
+                    android:id="@+id/decrt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dt"
+                    android:textColor="#ffaaaaaa"
+                    android:textSize="14.0dip" />
+    </LinearLayout>
+
+</LinearLayout>

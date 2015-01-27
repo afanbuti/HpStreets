@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.limon.make"
+    android:versionCode="10"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission
+            android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application
+        android:name=".BMapApi"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/ThemeActivity" >
+
+        <!-- 封面 -->
+        <activity
+            android:name="LogoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- 主界面 -->
+        <activity
+            android:name="MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 第一组 -->
+        <activity
+            android:name="GroupFirst"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor" />
+        <!-- 第二组 -->
+        <activity
+            android:name="GroupTwo"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor" />
+        <!-- 第三组 -->
+        <activity
+            android:name="GroupThree"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor" />
+        <!-- 第四组 -->
+        <activity
+            android:name="GroupFour"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor" />
+        <!-- 登录界面 -->
+        <activity
+            android:name="LogInActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 注册界面 -->
+        <activity
+            android:name="RegisterActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 注册协议 -->
+        <activity
+            android:name="RegisterDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 微博注册界面 -->
+        <activity
+            android:name="RegisterWeiboActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 新浪账号登录 -->
+        <activity
+            android:name=".SinaActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- 新浪账号处理
+        <activity
+            android:name=".SinaOfActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="SinaOfActivity"
+                    android:scheme="weibo" />
+            </intent-filter>
+        </activity> -->
+        <activity
+            android:name=".WebViewSinaActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WebViewShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- 人人账号登录 -->
+        <activity
+            android:name="RenrenActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- 人人账号处理 -->
+        <activity
+            android:name="RenrenOfActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- 人人好友列表 -->
+        <activity
+            android:name="RenrenFriendsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- 腾讯账号登录 -->
+        <activity
+            android:name="TencActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="TencActivity"
+                    android:scheme="tencweibo" />
+            </intent-filter>
+        </activity>
+        <!-- 腾讯账号处理 -->
+        <activity
+            android:name="TencOfActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- 我的账号界面 -->
+        <activity
+            android:name="MyInfoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 路线规划 -->
+        <activity
+            android:name=".RoutePlanActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 悄悄话列表界面 -->
+        <activity
+            android:name=".MyQuietActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 悄悄话发送界面 -->
+        <activity
+            android:name=".QuietSubmitActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 周边地点列表界面 -->
+        <activity
+            android:name=".MyTextLocatActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 周边地点地图界面 -->
+        <activity
+            android:name=".MyViewLocatActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 好友动态界面 -->
+        <activity
+            android:name="MyTextFriendsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 未登录好友动态界面 -->
+        <activity
+            android:name="NoLoginFriendsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 通讯录界面 -->
+        <activity
+            android:name="MyContactFriendsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 短信发送界面 -->
+        <activity
+            android:name=".MyContactSMSActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 好友请求列表 -->
+        <activity
+            android:name=".MyJoinFriendsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensor" />
+        <!-- 好友地图界面 -->
+        <activity
+            android:name="MyViewFriendsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 我的新鲜事 -->
+        <activity
+            android:name="MyDoingListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 我的日志 -->
+        <activity
+            android:name="MyBlogListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 内容库列表 -->
+        <activity
+            android:name="MyContentListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 内容库提交 -->
+        <activity
+            android:name="MyContentTimesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 广告列表 -->
+        <activity
+            android:name="AdActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 地点界面 -->
+        <!--
+			<activity android:name="PlaceActivity"
+			android:launchMode="singleTask" android:screenOrientation="sensor"
+			android:configChanges="orientation|keyboardHidden"
+			android:theme="@android:style/Theme.NoTitleBar" />
+        -->
+        <!-- 新地点提交界面 -->
+        <activity
+            android:name=".PlaceSubmitActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 地点评价界面 -->
+        <activity
+            android:name=".PlaceCommentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 地点评价列表界面 -->
+        <activity
+            android:name=".PlaceCommentListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 淘宝登录 -->
+        <!--
+            <activity android:name=".WebViewTaoActivity"
+			android:launchMode="singleTask" android:screenOrientation="sensor"
+			android:configChanges="orientation|keyboardHidden" />
+        -->
+        <!-- 淘宝列表 -->
+        <!--
+            <activity android:name=".TaobaoListActivity"
+			android:launchMode="singleTask" android:screenOrientation="sensor"
+			android:configChanges="orientation|keyboardHidden" />
+        -->
+        <!-- 淘宝内容 -->
+        <!--
+            <activity android:name=".TaobaoDetailActivity"
+			android:launchMode="singleTask" android:screenOrientation="sensor"
+			android:configChanges="orientation|keyboardHidden" />
+        -->
+        <!-- 勋章列表界面 -->
+        <activity
+            android:name=".BadgesListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 设置界面 -->
+        <activity
+            android:name=".SettingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 个人资料设置界面 -->
+        <activity
+            android:name=".MyProfileActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 个人性别界面 -->
+        <activity
+            android:name=".MyProfSubmitActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 语音设置界面 -->
+        <activity
+            android:name=".TtsPreferenceActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 关于界面 -->
+        <!--<activity-->
+            <!--android:name=".SeekBarPreference"-->
+            <!--android:configChanges="orientation|keyboardHidden"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:screenOrientation="sensor" />-->
+        <!-- 个人手机界面 -->
+        <activity
+            android:name=".MyPhoneSubmitActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 他人资料浏览界面 -->
+        <activity
+            android:name=".YourProfileActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 记录图片界面 -->
+        <!--
+            <activity android:name=".DoingImageActivity"
+			android:screenOrientation="sensor" android:theme="@style/CustomDialogTheme"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTask" />
+        -->
+        <!-- 记录提交界面 -->
+        <activity
+            android:name=".DoingSubmitActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 记录列表界面 -->
+        <activity
+            android:name=".DoingListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 记录回复列表界面 -->
+        <activity
+            android:name=".DoingCommentListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 记录回复界面 -->
+        <activity
+            android:name=".DoingCommentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 日志提交界面 -->
+        <activity
+            android:name=".BlogSubmitActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 日志列表界面 -->
+        <activity
+            android:name=".BlogListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 日志回复列表界面 -->
+        <activity
+            android:name=".BlogCommentListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor" />
+        <!-- 日志回复界面 -->
+        <activity
+            android:name=".BlogCommentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 日志详细界面 -->
+        <activity
+            android:name=".BlogDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 关于界面 -->
+        <activity
+            android:name=".AboutActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <!-- 随机语音 -->
+        <activity
+            android:name=".TtsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+<!-- 天气预报 -->
+        <activity
+            android:name=".WeatherActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/CustomDialogTheme" />
+        <service
+            android:name="com.exchange.Public.DownloadingService"
+            android:exported="true"
+            android:process=":DownloadingService" />
+
+        <!--
+			<service android:enabled="true"
+			android:name="com.limon.task.NewsService" /> <service
+			android:enabled="true" android:name="com.limon.task.LimonService" />
+        -->
+        <!--暂时不用
+        <receiver android:name="com.limon.common.BootBroadcastReceiver">
+			<intent-filter> <action
+			android:name="android.intent.action.BOOT_COMPLETED" />
+			<category android:name="android.intent.category.HOME" />
+			</intent-filter> </receiver>
+        -->
+        <activity
+            android:name="com.feedback.ui.SendFeedback"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.feedback.ui.FeedbackConversations" />
+        <activity
+            android:name="com.feedback.ui.FeedbackConversation"
+            android:configChanges="keyboard" />
+        <!-- 注册AppActivity -->
+       <activity android:name="com.baidu.mobads.AppActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        
+        <!-- 基本统计：value为添加应用时获得的key ，name的值不要更改 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="4e9021bc527015427200000d" />
+        <!-- 渠道统计:values 为您的自定义的渠道号， name的值不要更改 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Android Market" />
+        <!-- 您从百度移动联盟网站获取的APPSID fcae810a-->
+		<meta-data android:name="BaiduMobAd_APP_ID" android:value="fcae810a" /> 
+		<!-- 您从百度移动联盟网站获取的计费名 fcae810a-->
+		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="fcae810a_638073a9" />
+    </application>
+
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+</manifest>

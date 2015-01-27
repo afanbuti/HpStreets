@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="12.0dip" >
+
+        <ImageView
+            android:id="@+id/share_image"
+            android:layout_width="fill_parent"
+            android:layout_height="150dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reg_weibo" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/SignUpName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nick_name"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/SignUpPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/SignUpEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_optional"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+
+        <!--
+			<EditText android:id="@+id/SignUpMobile"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/mobile_optional" android:inputType="number" />
+			<Spinner android:entries="@array/genders"
+			android:id="@+id/SignUpGenderSpinner"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+        -->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="20dip"
+            android:singleLine="true"
+            android:text="@string/text_sign_up_agreement"
+            android:textColor="@color/listtitle"
+            android:textSize="13.0dip"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/SignUpButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:text="@string/reg_signup" />
+
+            <Button
+                android:id="@+id/ReturnButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:text="@string/btnreturn" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

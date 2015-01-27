@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myxmlns="http://schemas.android.com/apk/res/com.limon.make"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/common_view_margin" >
+
+    <!--
+    <TextView
+        android:id="@+id/categoty"
+style="@style/CategoryTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/common_view_margin"
+        android:visibility="visible" android:text="@string/msctitle" />
+    -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="#555555"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip" >
+
+        <com.limon.widget.InfoView
+            android:id="@+id/infoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="16dip"
+            myxmlns:Text="@string/msctitle" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="@dimen/common_view_margin"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/txt_result"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:editable="false"
+            android:gravity="top|left"
+            android:paddingBottom="40dip"
+            android:textSize="@dimen/text_introduction_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@android:id/button1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <requestFocus />
+        </Button>
+        <Button
+            android:id="@android:id/button2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_view_margin"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

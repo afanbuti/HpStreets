@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preference_title_tts" >
+        <ListPreference
+            android:defaultValue="@string/preference_default_tts_role"
+            android:dialogTitle="@string/preference_dialog_title_tts_role"
+            android:entries="@array/preference_entries_tts_role"
+            android:entryValues="@array/preference_values_tts_role"
+            android:key="@string/preference_key_tts_role"
+            android:title="@string/preference_title_tts_role" />
+
+        <com.limon.make.SeekBarPreference
+            android:defaultValue="@string/preference_default_tts_speed"
+            android:dialogTitle="@string/preference_dialog_title_tts_speed"
+            android:key="@string/preference_key_tts_speed"
+            android:title="@string/preference_title_tts_speed" />
+        <com.limon.make.SeekBarPreference
+            android:defaultValue="@string/preference_default_tts_volume"
+            android:dialogTitle="@string/preference_dialog_title_tts_volume"
+            android:key="@string/preference_key_tts_volume"
+            android:title="@string/preference_title_tts_volume" />
+
+        <ListPreference
+            android:defaultValue="@string/preference_default_tts_music"
+            android:dialogTitle="@string/preference_dialog_title_tts_music"
+            android:entries="@array/preference_entries_tts_music"
+            android:entryValues="@array/preference_values_tts_music"
+            android:key="@string/preference_key_tts_music"
+            android:title="@string/preference_title_tts_music" />
+
+        <!-- <CheckBoxPreference -->
+        <!-- android:defaultValue="false" -->
+        <!-- android:key="@string/preference_key_tts_show" -->
+        <!-- android:title="@string/preference_title_tts_show" /> -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

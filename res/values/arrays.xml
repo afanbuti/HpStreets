@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="rebind_unbind">
+        <item>重新绑定</item>
+        <item>解除绑定</item>
+    </string-array>
+    <string-array name="genders">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="select_photo">
+        <item>选择相册中的图片</item>
+        <item>拍摄一张照片</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="friend_menu_items">
+        <item>解除好友关系</item>
+    </string-array>
+    <string-array name="not_friend_menu_items">
+        <item>加为好友</item>
+    </string-array>
+    <string-array name="badges">
+        <item>初来乍到</item>
+        <item>风声渐起</item>
+        <item>得心应手</item>
+        <item>名满天下</item>
+        <item>天天向上</item>
+        <item>风花雪月</item>
+        <item>妙笔生花</item>
+        <item>增砖添瓦</item>
+        <item>街区达人</item>
+        <item>开心达人</item>
+        <item>城市精灵</item>
+        <item>城市之星</item>
+    </string-array>
+
+</resources>

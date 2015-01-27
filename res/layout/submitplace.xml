@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/moodcommentItem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/public_mood_edit_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/public_mood_edit_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10.0dip" >
+
+        <EditText
+            android:id="@id/NameEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/venues_name"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@id/PhoneEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/venues_phone"
+            android:inputType="phone"
+            android:phoneNumber="true" />
+
+        <EditText
+            android:id="@id/AddressEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/venues_addr" />
+
+        <Spinner
+            android:id="@id/CategorySpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@id/AddVenueButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/venues_btn" />
+
+            <Button
+                android:id="@+id/ReturnButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:text="@string/btnreturn" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

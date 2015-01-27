@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exchange_panelHeight"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ECECEC" >
+
+    <RelativeLayout
+        android:id="@+id/exchange_bkContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <include layout="@layout/exchange_component_back_top" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/exchange_detail0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exchange_bkContainer"
+        android:background="#ECECEC" >
+
+        <include layout="@layout/exchange_component_foucused_app" />
+    </RelativeLayout>
+
+</RelativeLayout>

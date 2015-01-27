@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/default_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/user_details_header"
+        android:layout_width="fill_parent"
+        android:layout_height="88.0dip"
+        android:background="@color/user_details_section_background" >
+
+        <LinearLayout
+            android:id="@id/user_name_region"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/user_details_level_progress"
+            android:layout_marginBottom="4.0dip"
+            android:layout_toRightOf="@id/user_icon_region"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip" >
+
+            <TextView
+                android:id="@id/user_details_name"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingRight="2.0dip"
+                android:singleLine="true"
+                android:text="name"
+                android:textColor="@color/listtitle"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@id/user_details_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/user_details_name"
+                android:text="level"
+                android:textColor="@color/orange_start"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@id/user_details_level_progress"
+            style="@style/PointsProgressBarStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="14.0dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/user_icon_region"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip" />
+
+        <TextView
+            android:id="@id/user_details_level_progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12.0dip"
+            android:text="50 / 100"
+            android:textColor="#ff69645d"
+            android:textSize="12.0dip" />
+
+        <LinearLayout
+            android:id="@id/user_items_region"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_details_level_progress"
+            android:layout_marginTop="4.0dip"
+            android:layout_toRightOf="@id/user_icon_region"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip" >
+
+            <TextView
+                android:id="@id/user_details_points"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="points"
+                android:textColor="#fffaa702"
+                android:textSize="14.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@id/user_details_gold"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="gold"
+                android:textColor="#fffaa702"
+                android:textSize="14.0dip"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/userImage"
+                android:layout_width="55.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/info_headimg"
+                android:textColor="@color/black"
+                android:textSize="14.0dip"
+                android:textStyle="bold" >
+            </TextView>
+"
+
+            <ImageView
+                android:id="@id/user_details_icon"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:background="@drawable/photo_background"
+                android:padding="1.0dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/userSex"
+                android:layout_width="55.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/info_usersex"
+                android:textColor="@color/black"
+                android:textSize="14.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/userSexValue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="14.0dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/userPhone"
+                android:layout_width="55.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/info_userphone"
+                android:textColor="@color/black"
+                android:textSize="14.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/userPhoneValue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="14.0dip"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <ImageView
+            android:id="@+id/decr"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/action_back_off" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="rebind_unbind">
+        <item>rebind </item>
+        <item>unbind </item>
+    </string-array>
+    <string-array name="genders">
+        <item> male </item>
+        <item> female </item>
+    </string-array>
+    <string-array name="select_photo">
+        <item> Select the picture album </item>
+        <item> take a picture </item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item> Sun </item>
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+    </string-array>
+    <string-array name="friend_menu_items">
+        <item> to unfriend </item>
+    </string-array>
+    <string-array name="not_friend_menu_items">
+        <item> Add as Friend </item>
+    </string-array>
+    <string-array name="badges">
+        <item> had just arrived </item>
+        <item> wind gradually from the </item>
+        <item> handy </item>
+        <item> over the world </item>
+        <item> every day up </item>
+        <item> romantic </item>
+        <item> wonderful flower pen </item>
+        <item> a stone </item>
+        <item> blocks up to </item>
+        <item> happy </item>
+        <item> city Wizard </item>
+        <item> City Star </item>
+    </string-array>
+
+</resources>

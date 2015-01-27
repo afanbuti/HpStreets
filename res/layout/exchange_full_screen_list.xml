@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exchange_rootId"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/exchange_message"
+        android:layout_width="fill_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/exchange_more_top" >
+
+        <Button
+            android:id="@+id/exchange_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/exchange_selector_back"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:text="收起" >
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:shadowColor="#ffeeeeee"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="精品推荐"
+            android:textColor="#4b4b4b"
+            android:textSize="20dp"
+            android:textStyle="bold" >
+        </TextView>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/exchange_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/exchange_footer"
+        android:layout_below="@+id/exchange_message"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:scrollingCache="true" >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/exchange_pb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/exchange_loading"
+        android:visibility="gone" >
+    </ImageView>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="0px"
+    android:background="#BBFFFFFF"
+    android:cacheColorHint="#00000000"
+    android:divider="?android:attr/listDivider"
+    android:dividerHeight="2px" >
+
+    <com.limon.widget.MyPreferenceCategory android:title="@string/functions" >
+        <Preference
+            android:key="@string/my_profile"
+            android:summary="@string/my_profile_summary"
+            android:title="@string/my_profile" />
+        <!--
+            <Preference android:title="@string/sync_settings"
+			android:key="@string/sync_settings" android:summary="@string/sync_settings_summary" />
+        -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/preferences_push_notification"
+            android:summaryOff="@string/preferences_push_notification_summary_off"
+            android:summaryOn="@string/preferences_push_notification_summary_on"
+            android:title="@string/preferences_push_notification" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/preferences_public"
+            android:summaryOff="@string/preferences_public_summary_off"
+            android:summaryOn="@string/preferences_public_summary_on"
+            android:title="@string/preferences_public" />
+    </com.limon.widget.MyPreferenceCategory>
+    <com.limon.widget.MyPreferenceCategory android:title="@string/other_settings" >
+        <Preference
+            android:key="@string/msctts"
+            android:summary="@string/msctts_summary"
+            android:title="@string/msctts" />
+        <Preference
+            android:key="@string/info_feedback"
+            android:summary="@string/info_feedback_summary"
+            android:title="@string/info_feedback" />
+        <Preference
+            android:key="@string/about"
+            android:summary="@string/about_summary"
+            android:title="@string/about" />
+    </com.limon.widget.MyPreferenceCategory>
+
+</PreferenceScreen>

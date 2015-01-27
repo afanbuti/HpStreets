@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myxmlns="http://schemas.android.com/apk/res/com.limon.make"
+    xmlns:baiduadsdk="http://schemas.android.com/apk/res/com.limon.make"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!--
+		<ListView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/listView"
+		android:background="@color/color_score_list_adapter_highlight"
+		android:cacheColorHint="@color/black" />
+    -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="#555555"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip" >
+
+        <com.limon.widget.InfoView
+            android:id="@+id/infoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="16dip"
+            myxmlns:Text="@string/info_news" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/action_aera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/toolbarLayout"
+        android:layout_margin="0px"
+        android:layout_weight="1.0"
+        android:alwaysDrawnWithCache="false"
+        android:background="#BBFFFFFF"
+        android:cacheColorHint="#00000000"
+        android:divider="?android:attr/listDivider"
+        android:dividerHeight="2px"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:focusable="true" />
+
+    <com.baidu.mobads.AdView android:id="@+id/adView"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"  
+		baiduadsdk:adSize="0"
+		baiduadsdk:adId = ""/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/vlgrey"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical" >
+
+            <ImageView
+                android:id="@+id/incr"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:src="@drawable/action_shout_off"  android:contentDescription="@string/submit" /><TextView
+                    android:id="@+id/incrt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submit"
+                    android:textColor="#ffaaaaaa"
+                    android:textSize="14.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical" >
+
+            <ImageView
+                android:id="@+id/reflash"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:src="@drawable/action_incr" android:contentDescription="@string/btnref" /><TextView
+                    android:id="@+id/reflasht"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnref"
+                    android:textColor="#ffaaaaaa"
+                    android:textSize="14.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical" >
+
+            <ImageView
+                android:id="@+id/decr"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:src="@drawable/action_edit_off" android:contentDescription="@string/main_info" /><TextView
+                    android:id="@+id/decrt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_info"
+                    android:textColor="#ffaaaaaa"
+                    android:textSize="14.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

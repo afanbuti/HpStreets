@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#BBFFFFFF"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingBottom="6.0dip"
+    android:paddingTop="2.0dip" >
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <!--
+            <TextView android:id="@id/name" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@id/text"
+			android:layout_gravity="left" android:textColor="@color/listtitle" />
+        -->
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff404040"
+            android:textSize="13.0dip" />
+        <!--
+            <TextView android:id="@+id/dateline" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@id/text"
+			android:textSize="12.0dip" android:textColor="#ffaaaaaa" />
+        -->
+    </LinearLayout>
+    <!--
+	<TextView android:gravity="center_horizontal" android:id="@+id/redoc"
+		android:layout_width="30.0dip" android:layout_height="30.0dip"
+		android:text="@id/TextView04" style="@style/commentButtonStyle" />
+	<ImageView android:id="@+id/incr" android:layout_height="32dip"
+		android:layout_width="32dip" android:src="@drawable/action_decr"
+		android:layout_gravity="right" />
+	<CheckBox android:id="@+id/cb" android:checked="true"
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content" android:textStyle="bold"/>
+    -->
+
+    <ImageView
+        android:id="@+id/incr"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_gravity="right"
+        android:contentDescription="@string/submit_doing"
+        android:src="@drawable/action_decr" />
+
+    <ImageView
+        android:id="@+id/mkf"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_gravity="right"
+        android:contentDescription="@string/msctitle"
+        android:src="@drawable/action_mkf" />
+
+</LinearLayout>

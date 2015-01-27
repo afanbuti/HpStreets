@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Happy Streets to welcome you!</string>
+    <string name="app_name">Happy Streets</string>
+    <string name="main_news">News</string>
+    <string name="main_home">Location</string>
+    <string name="main_myinfo">My site</string>
+    <string name="main_friend">Friends Dynamic</string>
+    <string name="main_setting">Settings</string>
+    <string name="main_content">Content library</string>
+    <string name="main_journal">i@News</string>
+    <string name="main_nearby">i@Blog</string>
+    <string name="main_estates">Search Route</string>
+    <string name="main_badges">Medal</string>
+    <string name="main_quiet">Private</string>
+    <string name="main_umeng">Union</string>
+    <string name="email">E-mail address</string>
+    <string name="email_optional">Mail address (optional)</string>
+    <string name="password">Password</string>
+    <string name="reg_signup">Agree with the "Registration Agreement" and register</string>
+    <string name="signup">Registration</string>
+    <string name="nick_name">User name</string>
+    <string name="sign_name">User name or mailbox</string>
+    <string name="mobile_optional">Phone (optional)</string>
+    <string name="signing_up">Being Registered ...</string>
+    <string name="signup_ok">Successful Registration</string>
+    <string name="login">Login</string>
+    <string name="checkin">Sign</string>
+    <string name="contactin">Import from Address Book</string>
+    <string name="checkin_ok">Attendance success</string>
+    <string name="checkin_nolocal">Where you are not registered, add location information</string>
+    <string name="reg_weibo">This is the first time you use microblogging login, please improve the login information</string>
+    <string name="functions">Function</string>
+    <string name="my_profile">Personal information</string>
+    <string name="my_profile_summary">Setup your profile</string>
+    <string name="sync_settings">Synchronization settings</string>
+    <string name="sync_settings_summary">Synchronization information to the chat program and social network</string>
+    <string name="preferences_push_notification_summary_off">New synchronized to the microblogging</string>
+    <string name="preferences_push_notification_summary_on">New synchronization to the microblogging</string>
+    <string name="preferences_push_notification">Synchronized to the microblogging</string>
+    <string name="preferences_public_summary_off">Friends can not find their position</string>
+    <string name="preferences_public_summary_on">Friend through the map to find their own position</string>
+    <string name="preferences_public">Open position</string>
+    <string name="other_settings">Other</string>
+    <string name="help">Help</string>
+    <string name="feedback">Feedback</string>
+    <string name="btnsubmit">OK</string>
+    <string name="btncancel">Canceled</string>
+    <string name="infosubmit">OK</string>
+    <string name="infocancel">Canceled</string>
+    <string name="btnreturn">Return</string>
+    <string name="btnrand">Random</string>
+    <string name="btnbytime">Timed release</string>
+    <string name="btnquiet">Whisper</string>
+    <string name="btnsms">To send text messages</string>
+    <string name="btndel">Delete</string>
+    <string name="btnref">Refresh</string>
+    <string name="binsina">Bind Sina microblogging</string>
+    <string name="binrenren">Bind everyone an Account</string>
+    <string name="bintenc">Binding Tencent microblogging</string>
+    <string name="help_summary">Help</string>
+    <string name="about">About</string>
+    <string name="about_summary">Happy Streets</string>
+    <string name="process">Loading,please wait...</string>
+    <string name="execute">Running,please wait...</string>
+    <string name="blog_title">Log title</string>
+    <string name="blog_content">Log content</string>
+    <string name="doing_content">Say something</string>
+    <string name="doing_comment">Replies</string>
+    <string name="place_commentlist">Comments</string>
+    <string name="place_comment">Your reviews of others may help</string>
+    <string name="submit_placecomment">Comments</string>
+    <string name="submit_ok">Successfully posted</string>
+    <string name="submit">Release</string>
+    <string name="submit_doing">Released new</string>
+    <string name="submit_comment">Replies</string>
+    <string name="submit_sms">To send text messages</string>
+    <string name="submit_blog">Release Log</string>
+    <string name="submit_joinus">Application plus a friend</string>
+    <string name="submit_joinok">Agreed to join friends</string>
+    <string name="submit_cancelus">Remove friend</string>
+    <string name="phone_album">Phone albums</string>
+    <string name="phone_graph">Camera phone</string>
+    <string name="phone_clean">Clear photo</string>
+    <string name="phone_nofind">Select the picture file</string>
+    <string name="phone_add">Increase picture</string>
+    <string name="phone_comment">To facilitate the contacts of your friends in the buddy list, please provide your phone number, Happy Streets network is committed to protecting your privacy and never disclosed to third parties</string>
+    <string name="phone_hint">Phone number</string>
+    <string name="flowword">Word</string>
+    <string name="error_net">Network connection fails, check the network settings</string>
+    <string name="error_overflow">Beyond</string>
+    <string name="error_nofind">Sorry, no results found</string>
+    <string name="error_venuesname">Location name can not be empty, please input</string>
+    <string name="error_regname">User name can not be empty, please input</string>
+    <string name="error_regpass">Password can not be empty, please input</string>
+    <string name="error_regemail">E-mail address can not be empty, please input</string>
+    <string name="error_regemailhas">User name is already in use, change the</string>
+    <string name="error_regfaile">Registration fails, please contact customer service or try again later</string>
+    <string name="error_loginpass">Username or password is incorrect, please re-enter</string>
+    <string name="error_loginnull">Please enter a username / email address and password</string>
+    <string name="sucess_reg">Registration is successful, and wish you happy Happy Streets</string>
+    <string name="venues_name">Place name</string>
+    <string name="venues_phone">Phone (optional)</string>
+    <string name="venues_addr">Location Description (optional)</string>
+    <string name="venues_cate">Location Type</string>
+    <string name="venues_btn">Add a new location</string>
+    <string name="venues_ok">New location information</string>
+    <string name="venues_default">Beijing</string>
+    <string name="venues_cate0">Others</string>
+    <string name="venues_cate1">Catering</string>
+    <string name="venues_cate2">Hotel</string>
+    <string name="venues_cate3">Mall</string>
+    <string name="venues_cate4">Wineshop</string>
+    <string name="venues_cate5">Attractions</string>
+    <string name="venues_cate6">Residential</string>
+    <string name="venues_cate7">Office</string>
+    <string name="venues_cate8">School</string>
+    <string name="venues_cate9">Store</string>
+    <string name="info_news">News</string>
+    <string name="info_mynews">My news</string>
+    <string name="info_blog">Blog</string>
+    <string name="info_badges">My medal</string>
+    <string name="info_myblog">My blog</string>
+    <string name="info_content">Content library</string>
+    <string name="info_quiet">Private</string>
+    <string name="info_venues">Locations</string>
+    <string name="info_friend">Friends Dynamic</string>
+    <string name="info_joinlist">Friend request</string>
+    <string name="info_contactlist">Address book Friend</string>
+    <string name="info_relogin">Log out</string>
+    <string name="info_exit">Exit</string>
+    <string name="info_qexit">Sure you want to quit?</string>
+    <string name="info_qrelogin">Sure you want to log out?</string>
+    <string name="info_nologin">Please login</string>
+    <string name="info_tishi">Tips</string>
+    <string name="info_feedback">Gathering feedback</string>
+    <string name="info_feedback_summary">Submit your feedback to us, we will continue to improve the user experience</string>
+    <string name="info_getcontact">This will import the address book friends, after import, you will be able to see the latest developments of the address book friends, Happy Streets network solemnly promised not to customer privacy information disclosed to third parties!</string>
+    <string name="info_readall">Read the full text></string>
+    <string name="info_readimg">Browse the image></string>
+    <string name="info_nojoinus">You do not have a friend request</string>
+    <string name="info_nofriends">Friends, "to remind your friends!</string>
+    <string name="info_waitfriend">Your friend request has been issued, please wait for the other approved</string>
+    <string name="info_cancelfriend">Friend relationship has been removed</string>
+    <string name="info_joinfriend">Congratulations, you have become friends</string>
+    <string name="info_myfriends">My friends</string>
+    <string name="info_contact">Address Book</string>
+    <string name="info_contactok">Updated successfully</string>
+    <string name="info_smsok">Messages sent</string>
+    <string name="info_sina">Sina friend</string>
+    <string name="info_renren">Everyone friend</string>
+    <string name="info_tenc">Tencent friend</string>
+    <string name="info_setfriend">Friends set</string>
+    <string name="info_newblog">Post a new log</string>
+    <string name="info_newdoing">Released new</string>
+    <string name="info_newquiet">Send a private message</string>
+    <string name="info_commentblog">Reply Log</string>
+    <string name="info_commentdoing">Reply new</string>
+    <string name="info_setmyinfo">Set Profile</string>
+    <string name="info_headimg">Avatar:</string>
+    <string name="info_usersex">Gender:</string>
+    <string name="info_userphone">Mobile:</string>
+    <string name="info_sex1">Man</string>
+    <string name="info_sex0">Ma\'am</string>
+    <string name="info_zai">At</string>
+    <string name="info_date">Date</string>
+    <string name="info_time">Time</string>
+    <string name="info_cre">Points</string>
+    <string name="info_exp">Experience</string>
+    <string name="info_ver">Version:</string>
+    <string name="info_nosms">Select Contacts friend</string>
+    <string name="info_sms">Happy Streets very interesting together and play! The Download http://hpstreets.com/res/a/hps.apk</string>
+    <string name="info_credit" formatted="false">Points +% s, experience +% s</string>
+    <string name="tr_radio_op1">FOR IMMEDIATE RELEASE</string>
+    <string name="tr_radio_op2">Timed release</string>
+    <string name="text_about">Happy to block net phone client to help you anytime, anywhere and address book friends, microblogging friend around happy fun, adults, couples, children, SMS joke.
+\ NThis version of the basic functions:
+\ N1. Rapid sharing of new, log, embedded massive content repository synchronization to the microblogging
+\ N2. Find the surrounding friends, add contacts and friends, friends of the map positioning around
+\ N3. Quickly find of interest by the location information service, business or entertainment, attendance registered too Medal
+\ N * Support E-mail hpstreets@gmail.com
+\ N * For more information visit the official website\n-http://www.hpstreets.com\n-http://home.hpstreets.com\n * official microblogging\n-http://weibo.com/hpstreets\n</string>
+    <string name="text_sign_up_agreement">Registration Agreement</string>
+    <string name="text_sign_up_agreement_yes">I agree</string>
+    <string name="text_sign_up_agreement_content">"1 Special tips
+1.1 Happy Streets Network (hpstreets.com)(HpStreets) agreed to follow the provisions of this Agreement and issued from time to time the operation rules provide a HpStreets information sharing and other related services (the " services" ), in order to obtain the service, service use ( hereinafter referred to as the " user" ) shall agree to all articles of this Agreement and in accordance with the page tips to complete the registration procedure. Once the user has registered and used the HpStreets to provide the service, as the user has to understand and agree to the contents of this agreement, including HpStreets of this agreement at any time any changes made.
+2 Services
+2.1 The service contents from HpStreets according to the actual situation, happy net retaining block change at any time, interruption or termination of part or all of the services. Happy net retaining blocks at any time according to actual condition adjust HpStreets platform provides service typHpStreetseet network not liable for business adjustment to users losses caused by. Unless otherwise expressly provided in this agreement, increase or strengthen the services of any new features, including the introduction of new products, are subject to this agreement. User understands and agrees that, this service only in accordance with the current present situation provided, for any user communication or personalized settings, remove aging, transmission error, failure to store or any other problem, happy blocks all the network does not assume any liability.
+2.2 HpStreets in providing this service, may be on the part of service user charge a fee. In this case, the block will be happy do explicit prompting related pages. If users refused to pay the costs, we cannot use the related services.
+2.3 user understanding, HpStreets only provides this service, in addition to the associated with the service related equipment ( such as computers, modems and other related with internet access device ) and costs ( such as access to the Internet and pay telephone and Internet fee shall be borne by the users themselves burden ).
+3 Rules for the use of
+3.1 Users to apply for the use of HpStreets this service, must to the HpStreets provides my true, correct, up-to-date and complete personal information, such as any changes in personal data, must be updated in time. If the user provides any errors, false, outdated or incomplete or misleading information; or the HpStreets has reasonable grounds to suspect that such data for errors, false, outdated or incomplete or misleading, HpStreets has the right to suspend or terminate the account of the user, and the user to the present and the future use the services of the whole or any part of.
+3.2 User account and password by the user is responsible for the custody. The user agrees to: ( a ) a user's password or account unauthorized use, or any other security issues, the user will be notified immediately HpStreets; and ( b ) because of happy net fault blocks, for anyone to use the password and account for any action, the user should take full responsibility for. Therefore for any loss or damage arising, HpStreets can not bear any responsibility. ( c ) each user to the account of all the activities and take full responsibility for the incident. If the user fails to keep your username and password for user, HpStreets or the third party damage, the user will take full responsibility.
+3.3 User must agree to be happy blocks through email or by other means to send the user promotion or other related business information.
+3.4 Users in the use of happy net the blocks in the service process, must follow the following principle:
+In conformity with the relevant Chinese laws and regulations;
+Not for any illegal purpose and use of the service system;
+Comply with all the services and related networks protocols, rules and procedures;
+Shall not make use of the service system for network happy blocks any likely to adversely affect the normal operation of the Internet behavior;
+Shall not make use of this service system network happy block transmission of any sexual harassment, libelous, abusive, threatening, vulgar, obscene or any other illegal information;
+Shall not make use of the service system for network happy blocks any help you block network behavior;
+If finding any illegal or any account security vulnerabilities, shall immediately notice HpStreets.
+3.5 If the user in the use of the service of any violation of these Provisions, happy blocks or its authorized person shall have the right to require the user to correct or to take all necessary measures ( including but not limited to, change or delete users to post content, suspend or terminate the users of the service right ) to reduce user misconduct caused by effect of.
+4 Content ownership
+4.1 HpStreets provides the service content may include: text, voice, video, software, pictures, charts. All of these content copyright, trademark and other property rights law protection.
+The 4.2 user is obtained only in the happy street net or other relevant rights of the authorization to use these elements, but not copy, the content, or the creation of content-related derivative products.
+4.3 HpStreets users are encouraged to make full use of time block network platform freely post and share their information, but these elements must be in the public domain, or the user has the content use rights. At the same time, the user for its creation and in the happy street online legal content shall enjoy the copyright and related rights. The user should not pass the happy street net post other copyrighted content. Happy blocks if received formal copyright complaints, will delete these.
+4.4 In the happy street post public information network
+In this agreement," the service of public use area" refers to the general public can use area.
+The user agrees to have the service user to public use area and the service of any other public use area posted content, including photos, graphics or audio or data content, awarded the happy net global free blocks, licensing fees and non exclusive use right, happy net can spread to show blocks, and to promote the content posted service specific aim, the content reproduction, modify, adapt or publishing, photo and graphics data for the use, only posted the photos or graphics on the services of the purpose and for the. In the user the content into the period of service, the right to use continues to be effective; if the user of the content from the deletion in our service, using the right to delete termination.
+The user agrees to have the service users in other public use area posted content, happy net free block grant license fees, permanent, irrevocable, non exclusive and complete licensing rights in the global use, copy, modify, adapt, rewrite, publishing, translation, create derivative works of, and / or or will the content ( partial or total) to spread, show, display, and / or into the use of any known now and future development, the form of media and technology of other works.
+5 Privacy protection
+5.1 To protect user privacy is a HpStreets is a basic policy, HpStreets to ensure not open to the public or to the third party to provide user registration information and the user in the use of the service is stored in the HpStreets non disclosure, except in the following situations
+Prior to obtaining the clear authorization of user;
+According to the relevant laws and regulations;
+In accordance with the relevant government departments in charge of the requirements;
+In order to safeguard the public interest;
+Maintenance of the legitimate rights and interests of HpStreets.
+5.2 Happy blocks may cooperate with third party to provide relevant service, in this case, if the third party undertakes and HpStreets equivalent user privacy protection responsibility, then HpStreets user registration information can be provided to the third party.
+In 5.3 not to reveal the privacy of individual users under the prerequisite of the materials, happy net has the right to block the user database are analyzed and the user database for commercial use.
+6 Disclaimer
+6.1 user photos, personal information and other data uploaded to the Internet, there may be other organizations or individuals copy, reprint, tampering or other illegal purposes, the user must be fully aware of these risks. The explicit consent of its customers use HpStreets service the risks ( including but not limited to, by the third party infringement or about the third party infringement ) will completely from its own; as a result of the use of HpStreets and services are all the consequences arising from its own, HpStreets does not assume any liability.
+6.2 HpStreets does not guarantee the principal service will certainly be able to meet the requirements of users, will not guarantee the service is not interrupted, the timely service, safety, accuracy, authenticity, integrity is not a guarantee.
+6.3 HpStreets does not guarantee to provide convenience to users and set up the external links the accuracy and completeness, at the same time, for the external links pointing to the happy net actual control block any content on the webpage, HpStreets does not assume any liability.
+6.4 due to force majeure or HpStreets cannot control causes the service interruption or other defects, HpStreets does not assume any responsibility, but will try our best to reduce the damages caused by the user and the influence to.
+6.5 according to the relevant laws and regulations, HpStreets solemnly draws the user's attention, either through the service to upload, post, email or any other way to transmit information, data, text, software, music, news, photos, graphics, video, information or other information ( hereinafter referred to as the" content" ), no matter public or private transport, by content providers to assume responsibility. HpStreets can not control the content transmitted through the service, there is no guarantee that the content the accuracy, completeness or quality. In any case, happy net blocks are not responsible for any content, including but not limited to any content of any errors or omissions, and through the service to post, e-mail or otherwise transmit any content and derived for any loss or damage. But the happy net has the right to stop the transmission of blocks of any of the above-mentioned content and to take appropriate action, including but not limited to suspend users use the service in whole or in part, keep the relevant records, and report to the appropriate authorities.
+6.6 HpStreets as a network service provider, to illegally reproduced, false issuance, the piracy occurring do not have adequate monitoring ability. HpStreets to others when implemented on a web site for such violations do not undertake the legal liability, tort liability almost borne by me.
+7 Service change, interruption or termination of
+7.1 As a result of system maintenance or upgrade needs must suspend the service blocks, happy net will be possible in advance notice.
+7.2 In the event of any one of the following circumstances, HpStreets have the right at any time to provide users with interruption or termination of the service under this Agreement without notifying the user:
+Profile provided by the user is not true;
+Users who violate the provisions of this agreement the use of rules.
+Without the HpStreets agree, will be HpStreets platform for commercial purposes
+7.3 In addition to the situation mentioned in the preceding paragraph, happy net while retaining blocks without notice to users of the case at any time to interrupt or terminate all or part of the rights to the service, for all service interruption or termination of any loss caused by the block, happy net without the need of users or any third party any responsibility.
+8 Compensation for breach of contract
+Customer agrees to indemnify and protect HpStreets and other interests of the user, if the user in violation of the relevant laws, regulations or any of the provisions under this Agreement and to the HpStreets or any of the other third were losses, users agree to bear the damage compensation liability.
+9 Banned commercial behavior
+User agrees not to any part of the services or the use of the service or access, copy, copy, sell, resell or used for any other commercial purpose.
+10 Advertisers for transactions
+The user through the service and advertisers for any form of communication or business, or participation in promotions, including related goods or service of payment and delivery, as well as an any other related terms, conditions, warranties or representations, completely for users and advertisers between behavior. The relevant laws and regulations have stipulated requirements HpStreets responsibility, because users of any of the foregoing transactions or the advertiser and suffered loss or damage of any kind, happy net is not responsible for the block.
+11 Links
+The service or third people can be provided with other Internet sites or resources link. The HpStreets can't control these sites and resources, users understand and agree, such sites or resources are available, HpStreets is not responsible for, or derived from such sites or resources for any content, advertising, products or other data blocks, happy net also not guaranteed or responsible. From the use of or reliance on any such sites or resources released or through such sites or resources to gain access to any content, goods or services produced for any damage or loss, HpStreets without any direct or indirect liability.
+12 HpStreets of exclusive right
+The user understands and agrees, the services and the services used by the software ( hereinafter referred to as" software" ) contain by related intellectual property rights and other legal protection of proprietary and confidential information. The user can also understand and agree that, through the service to users or advertisers sponsor advertisements or information presented content contained, is protected by copyrights, trademarks, service marks, patents or other proprietary rights and legal protection. Without the happy blocks or advertisers expressly authorized, users are not permitted to modify, rental, lend, sell, distribute the services or any part or all of the software, or to create derivative works, or use of unauthorized modified software, including but not limited to unauthorized use of the services of the purpose of. Happy street net only grant the user individual, can not transfer and non exclusive right of use, users have to use the single computer software code, but the user may not ( and should not allow any third party ) copy, modify, create derivative works, reduction, reverse engineering group, or otherwise found in the original code, or sell, transfer, licensing or provide software set guarantee, or otherwise transfer the software to any rights. The user agrees to will pass by the time block provided by the network interface rather than in any other ways to use the service.
+13 Guarantee and credit guarantee
+User expressly understood and agreed to by
+A. Users use the services of the risks from individual user burden. The service department in accordance with the " status quo" and" existing" basis. HpStreets of the service does not provide any express or implied warranty or guarantee, including but not limited to commercial merchantable, applicability for a particular purpose and without infringement of rights guarantee or warranty.
+B. HpStreets does not guarantee the following matters:
+C. The service will meet user requirements,
+This service will be undisturbed, provide timely, safe and reliable or not;
+Using the service to obtain correct and reliable;
+The user through the service to purchase or obtain any products, services, information or other information will be consistent with the expectations of users;
+Software and webpage information of any errors will be corrected;
+D. The use of the service is to download or obtain any information borne by the users own discretion and risk, because any downloading data to the user computer system for any damage or loss of data and other consequences, by users themselves.
+E. Users HpStreets or through the service to obtain any advice or information, either in written or oral form, unless this agreement is explicitly specified in this agreement, shall not constitute any guarantee outside.
+14 Limitation of liability
+Clearly understand and agree to the user, based on the following reasons, including but not limited to profits, reputation, application, data loss or other intangible losses, HpStreets does not assume any direct, indirect, incidental, special, consequential or punitive damages ( even happy block Internet first has been informed of the possibility of the occurrence of compensation vice versa ):
+The use of the service or unable to use;
+To replace from or through the service to purchase or obtain any commodity, data, information, services, received the message, or the conclusion of the transaction costs incurred;
+User data transmission or unauthorized access or alteration;
+Any third party in the service of a statement or action;
+And the services related to other matters, but the agreement has clear provisions except;
+The third party in any way to post or deliver fraudulent information, or induced by a user by the economic losses, HpStreets does not assume any liability.
+15 Revised agreement
+15.1 HpStreets will have the right to amend the agreement about the terms of this agreement, once the content changes, happy net will block through appropriate means in the website tips.
+15.2 If you do not agree with happy block network for the relevant articles of the agreement the changes made, the user has the right to stop using the service. If the user continues to use the service, as the user accepts the HpStreets on the relevant articles of the agreement modifications.
+16 Legal jurisdiction
+16.1 This agreement, implementation and interpretation and dispute settlement shall be governed by the laws of china.
+16.2 If both parties are on the contents of this agreement or its implementation has any dispute, both sides should be resolved through friendly consultations.
+17 Notification and delivery
+Under this agreement, all notifications can be important announcement, page by e-mail or regular mail delivery manner; the notice to send, as has the addressee.
+18 Other provisions
+18.1 This Agreement constitute the parties to this agreement agreement and other relevant matters in complete agreement, in addition to the provisions of this agreement, the parties hereto gave no other rights.
+18.2 If any provision of this Agreement for whatever reason, completely or partially invalid or unenforceable, the remaining provisions of this Agreement shall be valid and binding.
+18.3 All provisions of this agreement by the final explanation right belongs to the HpStreets."</string>
+<string name="main_info">NewInfo</string>
+<string name="hy">Friend</string>
+<string name="txl">Address book</string>
+<string name="dt">Map</string>
+<string name="weather_du">℃</string>
+<string name="msctitle">Happy to listen</string>
+<string name="weather_updating">updating…</string>
+<string name="main_weibo">Concern microblogging</string>
+<string name="main_other">More applications</string>
+<string name="main_msctts">Happy to listen</string>
+<string name="main_weath">Weather</string>
+<string name="mscappid">51490018</string>
+<string name="msctts">Set The Voice over</string>
+<string name="msctts_summary">Setup Voice-related parameters</string>
+<string name="preference_title_tts">Synthesis settings</string>
+<string name="preference_key_tts_show">tts_show</string>
+<string name="preference_title_tts_show">Synthesis interface</string>
+<string name="preference_key_tts_role">tts_role</string>
+<string name="preference_title_tts_role">Pronunciation</string>
+<string-array name="preference_entries_tts_role">
+        <item>晓燕</item>
+        <item>晓宇</item>
+        <item>小研</item>
+        <item>小琪</item>
+        <item>小峰</item>
+        <item>小梅</item>
+        <item>小莉</item>
+        <item>小蓉</item>
+        <item>小芸</item>
+        <item>小坤</item>
+        <item>小强 </item>
+        <item>小莹</item>
+        <item>小新</item>
+        <item>楠楠</item>
+        <item>老孙</item>
+    </string-array>
+    <string-array name="preference_values_tts_role">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>vixq</item>
+        <item>vixf</item>
+        <item>vixm</item>
+        <item>vixl</item>
+        <item>vixr</item>
+        <item>vixyun</item>
+        <item>vixk</item>
+        <item>vixqa</item>
+        <item>vixying</item>
+        <item>vixx</item>
+        <item>vinn</item>
+        <item>vils</item>
+    </string-array>
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_dialog_title_tts_role">Select pronounce people</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">Speed​​</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">Selection rate of speech</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">Volume</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">Select volume</string>
+    <string name="preference_key_tts_music">tts_music</string>
+    <string name="preference_title_tts_music">Background music</string>
+    <string-array name="preference_entries_tts_music">
+        <item>background music</item>
+        <item>background music 1</item>
+    </string-array>
+<string-array name="preference_values_tts_music">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="preference_default_tts_music">0</string>
+<string name="preference_dialog_title_tts_music">Select background music</string>
+</resources>

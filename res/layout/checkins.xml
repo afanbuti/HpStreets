@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+		<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+
+		</LinearLayout>
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top" >
+
+    <RelativeLayout
+        android:id="@+id/tweet_profile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:paddingBottom="10.0dip" >
+
+        <!-- 头像 -->
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="60.0sp"
+            android:layout_height="60.0sp"
+            android:layout_margin="10.0dip" />
+        <!-- 昵称 -->
+
+        <TextView
+            android:id="@+id/tweet_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26.0dip"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            android:textColor="#ff222222"
+            android:textSize="18.0dip"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+        <!-- android:layout_toRightOf="@id/tweet_profile_preview" -->
+        <!-- 是否是VIP -->
+
+        <ImageView
+            android:id="@+id/tweet_profile_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginTop="26.0dip"
+            android:layout_toRightOf="@+id/tweet_profile_name"
+            android:src="@drawable/v"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <!-- <ListView android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" android:id="@+id/listView" /> -->
+
+    <LinearLayout
+        android:id="@+id/share_image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <include layout="@layout/footview" />
+    </LinearLayout>
+    <!--
+		<EditText android:id="@+id/share_content"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:hint="" android:scrollbars="vertical" android:gravity="top"
+		android:layout_above="@id/share_image_view" />
+    -->
+
+</RelativeLayout>

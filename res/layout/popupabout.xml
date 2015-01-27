@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/public_mood_edit_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/httpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="访问hpstreets.com" />
+
+    <Button
+        android:id="@+id/mailBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_renren"
+        android:text="mailto:hpstreets@gmail.com" />
+
+    <Button
+        android:id="@+id/friBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_tenc"
+        android:text="合作网站" />
+
+    <Button
+        android:id="@+id/retBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
+</LinearLayout>

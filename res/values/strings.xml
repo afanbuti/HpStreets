@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">开心街区欢迎您!</string>
+    <string name="app_name">开心街区</string>
+    <string name="main_news">新鲜事</string>
+    <string name="main_home">地点</string>
+    <string name="main_myinfo">我的地盘</string>
+    <string name="main_friend">好友动态</string>
+    <string name="main_setting">设置</string>
+    <string name="main_content">内容库</string>
+    <string name="main_journal">i@新鲜事</string>
+    <string name="main_nearby">i@日志</string>
+    <string name="main_estates">搜索路线</string>
+    <string name="main_badges">勋章</string>
+    <string name="main_quiet">悄悄话</string>
+    <string name="main_mei">美图库</string>
+    <string name="main_tao">淘宝街</string>
+    <string name="main_umeng">应用联盟</string>
+    <string name="email">邮箱地址</string>
+    <string name="email_optional">邮箱地址（可选）</string>
+    <string name="password">密码</string>
+    <string name="reg_signup">同意《注册协议》并注册</string>
+    <string name="signup"> 注 册    </string>
+    <string name="nick_name">用户名</string>
+    <string name="sign_name">用户名或邮箱</string>
+    <string name="mobile_optional">手机（可选）</string>
+    <string name="signing_up">正在注册...</string>
+    <string name="signup_ok">注册成功</string>
+    <string name="login"> 登 录    </string>
+    <string name="checkin">签   到</string>
+    <string name="contactin">从通讯录导入</string>
+    <string name="checkin_ok">签到成功</string>
+    <string name="checkin_nolocal">您所处的位置未登记，请新增地点信息</string>
+    <string name="reg_weibo">这是您首次使用微博登录，请完善登录资料</string>
+    <string name="functions">功能</string>
+    <string name="my_profile">个人资料</string>
+    <string name="my_profile_summary">设置您的个人资料</string>
+    <string name="sync_settings">同步设置</string>
+    <string name="sync_settings_summary">同步信息到聊天程序和社交网络</string>
+    <string name="preferences_push_notification_summary_off">新鲜事不同步到微博</string>
+    <string name="preferences_push_notification_summary_on">新鲜事同步到微博</string>
+    <string name="preferences_push_notification">同步到微博</string>
+    <string name="preferences_public_summary_off">好友不能发现自己的位置</string>
+    <string name="preferences_public_summary_on">好友能够通过地图发现自己的位置</string>
+    <string name="preferences_public">公开位置</string>
+    <string name="other_settings">其它</string>
+    <string name="help">帮助</string>
+    <string name="feedback">反馈</string>
+    <string name="btnsubmit"> 确 定   </string>
+    <string name="btncancel"> 取 消   </string>
+    <string name="infosubmit">确定</string>
+    <string name="infocancel">取消</string>
+    <string name="btnreturn">返回</string>
+    <string name="btnrand">随机</string>
+    <string name="btnbytime">定时发布</string>
+    <string name="btnquiet"> 说悄悄话  </string>
+    <string name="btnsms">发送短信</string>
+    <string name="btndel">删除</string>
+    <string name="btnref">刷新</string>
+    <string name="binsina">绑定新浪微博</string>
+    <string name="binrenren">绑定人人网账号</string>
+    <string name="bintenc">绑定腾讯微博</string>
+    <string name="help_summary">使用帮助</string>
+    <string name="about">关于</string>
+    <string name="about_summary">关于开心街区</string>
+    <string name="process">正在加载，请稍侯...</string>
+    <string name="execute">正在执行，请稍侯...</string>
+    <string name="blog_title">日志标题</string>
+    <string name="blog_content">日志内容</string>
+    <string name="doing_content">说点什么吧</string>
+    <string name="doing_comment">回复</string>
+    <string name="place_commentlist">点评</string>
+    <string name="place_comment">您的点评也许对别人有帮助哦</string>
+    <string name="submit_placecomment">发表点评</string>
+    <string name="submit_ok">发布成功</string>
+    <string name="submit">发布</string>
+    <string name="submit_doing">发布新鲜事</string>
+    <string name="submit_comment">回复</string>
+    <string name="submit_sms">发送短信</string>
+    <string name="submit_blog">发布日志</string>
+    <string name="submit_joinus">申请加好友</string>
+    <string name="submit_joinok">同意加好友</string>
+    <string name="submit_cancelus">移除好友</string>
+    <string name="phone_album">手机相册</string>
+    <string name="phone_graph">手机拍照</string>
+    <string name="phone_clean">清除照片</string>
+    <string name="phone_nofind">请选择图片文件</string>
+    <string name="phone_add">增加图片</string>
+    <string name="phone_comment">为便于您的通讯录好友出现在好友列表，请提供你的手机号码，开心街区网承诺保护您的隐私绝不透露给第三方</string>
+    <string name="phone_hint">手机号码</string>
+    <string name="flowword">字</string>
+    <string name="error_net">网络连接失败，请检查网络设置</string>
+    <string name="error_overflow">已超出</string>
+    <string name="error_nofind">抱歉，未找到结果</string>
+    <string name="error_venuesname">地点名称不能为空，请录入</string>
+    <string name="error_regname">用户名不能为空，请录入</string>
+    <string name="error_regpass">密码不能为空，请录入</string>
+    <string name="error_regemail">邮箱地址不能为空，请录入</string>
+    <string name="error_regemailhas">用户名已被使用，请更改</string>
+    <string name="error_regfaile">注册失败，请联系客服或稍后重试</string>
+    <string name="error_loginpass">用户名或密码不正确，请重新输入</string>
+    <string name="error_loginnull">请输入用户名/邮箱地址和密码</string>
+    <string name="sucess_reg">注册成功，祝您使用开心街区愉快</string>
+    <string name="venues_name">地点名称</string>
+    <string name="venues_phone">电话（可选）</string>
+    <string name="venues_addr">地点描述（可选）</string>
+    <string name="venues_cate">地点类别</string>
+    <string name="venues_btn">增加新地点</string>
+    <string name="venues_ok">新增地点信息成功</string>
+    <string name="venues_default">北京</string>
+    <string name="venues_cate0">其他</string>
+    <string name="venues_cate1">餐饮</string>
+    <string name="venues_cate2">宾馆</string>
+    <string name="venues_cate3">商场</string>
+    <string name="venues_cate4">酒店</string>
+    <string name="venues_cate5">景点</string>
+    <string name="venues_cate6">住宅</string>
+    <string name="venues_cate7">写字楼</string>
+    <string name="venues_cate8">学校</string>
+    <string name="venues_cate9">商店</string>
+    <string name="item_title">商品名称</string>
+    <string name="item_price">商品价格</string>
+    <string name="item_seller_nick">卖家昵称</string>
+    <string name="item_num">商品数量</string>
+    <string name="item_location">所在地</string>
+    <string name="item_keyword">关键字</string>
+    <string name="info_news">新鲜事</string>
+    <string name="info_mynews">我的新鲜事</string>
+    <string name="info_blog">日志</string>
+    <string name="info_badges">我的勋章</string>
+    <string name="info_myblog">我的日志</string>
+    <string name="info_content">内容库</string>
+    <string name="info_quiet">悄悄话</string>
+    <string name="info_venues">周边地点</string>
+    <string name="info_friend">好友动态</string>
+    <string name="info_joinlist">好友请求</string>
+    <string name="info_contactlist">通讯录好友</string>
+    <string name="info_relogin">注销登录</string>
+    <string name="info_exit">退出</string>
+    <string name="info_qexit">确定要退出？</string>
+    <string name="info_qrelogin">确定要注销登录？</string>
+    <string name="info_nologin">请登录后进行该操作</string>
+    <string name="info_tishi">提示</string>
+    <string name="info_feedback">反馈收集</string>
+    <string name="info_feedback_summary">将您的反馈提交给我们，我们将不断改善用户体验</string>
+    <string name="info_getcontact">该操作将导入通讯录好友，导入后您将能看到通讯录好友的最新动态，开心街区网郑重承诺不会将客户隐私信息透露给第三方！</string>
+    <string name="info_readall">阅读全文></string>
+    <string name="info_readimg">查看图片></string>
+    <string name="info_nojoinus">您还没有好友请求</string>
+    <string name="info_nofriends">还没有好友动态，赶快提醒您的好友吧！</string>
+    <string name="info_waitfriend">您的好友请求已经发出，请等待对方批准吧</string>
+    <string name="info_cancelfriend">好友关系已移除</string>
+    <string name="info_joinfriend">恭喜，你们已成为好友</string>
+    <string name="info_myfriends">我的好友</string>
+    <string name="info_contact">通讯录</string>
+    <string name="info_contactok">更新成功</string>
+    <string name="info_smsok">短信发送成功</string>
+    <string name="info_sina">新浪微博好友</string>
+    <string name="info_renren">人人网好友</string>
+    <string name="info_tenc">腾讯微博好友</string>
+    <string name="info_setfriend">好友设置</string>
+    <string name="info_newblog">发布新日志</string>
+    <string name="info_newdoing">发布新鲜事</string>
+    <string name="info_newquiet">发送悄悄话</string>
+    <string name="info_commentblog">回复日志</string>
+    <string name="info_commentdoing">回复新鲜事</string>
+    <string name="info_setmyinfo">设置个人资料</string>
+    <string name="info_headimg">头像：</string>
+    <string name="info_usersex">性别：</string>
+    <string name="info_userphone">手机：</string>
+    <string name="info_sex1">男士</string>
+    <string name="info_sex0">女士</string>
+    <string name="info_zai">在</string>
+    <string name="info_date">日期</string>
+    <string name="info_time">时间</string>
+    <string name="info_cre">积分</string>
+    <string name="info_exp">经验</string>
+    <string name="info_ver">版本：</string>
+    <string name="info_nosms">请选择通讯录好友</string>
+    <string name="info_sms">“开心街区”很有趣一起来玩吧！下载地址http://hpstreets.com/res/a/hps.apk</string>
+    <string name="info_credit" formatted="false">积分 + %s，经验 + %s</string>
+    <string name="tr_radio_op1">立即发布</string>
+    <string name="tr_radio_op2">定时发布</string>
+    <string name="title_login">登录界面</string>
+    <string name="title_detail_item_buy">商品购买页面</string>
+    <string name="text_about">开心街区网手机客户端帮助您随时随地与通讯录好友、微博好友分享身边的开心趣事,成人,夫妻,儿童,短信笑话。
+\n此版本基本功能：
+\n1.快速分享新鲜事、日志，内嵌海量内容库同步到微博
+\n2.查找周边好友，添加通讯录好友，地图定位周围的好友
+\n3.通过地理位置信息服务，快速查找感兴趣的商家或娱乐场所，签到抢注得勋章
+\n*技术支持邮箱hpstreets@gmail.com
+\n*更多信息访问官方网站\n—http://www.hpstreets.com\n—http://home.hpstreets.com\n*官方微博\n—http://weibo.com/hpstreets\n</string>
+    <string name="text_sign_up_agreement">注册协议</string>
+    <string name="text_sign_up_agreement_yes">我同意</string>
+    <string name="text_sign_up_agreement_content">"1. 特别提示
+
+1.1 开心街区网（hpstreets.com）同意按照本协议的规定及其不时发布的操作规则提供开心街区网信息共享等相关服务（以下称“本服务”），为获得本服务，服务使用人（以下称“用户”）应当同意本协议的全部条款并按照页面上的提示完成全部的注册程序。 用户一旦注册并使用开心街区网提供的本服务，即视为用户已了解并完全同意本协议各项内容，包括开心街区网对本协议随时所做的任何修改。
+
+2. 服务内容
+
+2.1 本服务的具体内容由开心街区网根据实际情况提供，开心街区网保留随时变更、中断或终止部分或全部本服务的权利。开心街区网保留根据实际情况随时调整开心街区网平台提供的服务种类、形式，开心街区网不承担因业务调整给用户造成的损失。除非本协议另有其它明示规定，增加或强化目前本服务的任何新功能，包括所推出的新产品，均受到本协议之规范。用户了解并同意，本服务仅依其当前所呈现的状况提供，对于任何用户通讯或个人化设定之时效、删除、传递错误、未予储存或其它任何问题，开心街区网均不承担任何责任。
+2.2 开心街区网在提供本服务时，可能会对部分服务的用户收取一定的费用。在此情况下，开心街区网会在相关页面上做明确的提示。如用户拒绝支付该等费用，则不能使用相关的服务。
+2.3 用户理解，开心街区网仅提供相关的本服务，除此之外与相关本服务有关的设备（如电脑、调制解调器及其他与接入互联网有关的装置）及所需的费用（如为接入互联网而支付的电话费及上网费）均应由用户自行负担。
+
+3. 使用规则
+
+3.1 用户在申请使用开心街区网本服务时，必须向开心街区网提供本人真实、正确、最新及完整的个人资料，如个人资料有任何变动，必须及时更新。 若用户提供任何错误、不实、过时或不完整或具误导性的资料；或者开心街区网有理由怀疑前述资料为错误、不实、过时或不完整或具误导性的，开心街区网有权暂停或终止用户的帐号，并拒绝用户于现在和未来使用本服务之全部或任何部分。
+3.2 用户的帐号和密码由用户负责保管。 用户同意∶ (a)用户的密码或帐号遭到未获授权的使用，或者发生其它任何安全问题时，用户将立即通知开心街区网；且 (b)非因开心街区网的过错，对于任何人利用该密码及帐号所进行的任何行为，用户应负完全的责任。对于因此而产生的任何损失或损害，开心街区网无法也不承担任何责任。(c) 每个用户都要对其帐户中的所有活动和事件负全责。如果用户未保管好自己的帐号和密码而对用户、开心街区网或第三方造成的损害，用户将负全部责任。
+3.3 用户必须同意接受开心街区网通过电子邮件或其他方式向用户发送的商品促销或其他相关商业信息。
+3.4 用户在使用开心街区网本服务过程中，必须遵循以下原则：
+遵守中国有关的法律和法规；
+不得为任何非法目的而使用本服务系统；
+遵守所有与本服务有关的网络协议、规定和程序；
+不得利用开心街区网本服务系统进行任何可能对互联网的正常运转造成不利影响的行为；
+不得利用开心街区网本服务系统传输任何骚扰性的、中伤他人的、辱骂性的、恐吓性的、庸俗淫秽的或其他任何非法的信息资料；
+不得利用开心街区网本服务系统进行任何不利于开心街区网的行为；
+如发现任何非法使用用户帐号或帐号出现安全漏洞的情况，应立即通告开心街区网。
+3.5 如用户在使用本服务时违反任何上述规定，开心街区网或及其授权的人有权要求用户改正或直接采取一切必要的措施（包括但不限于更改或删除用户张贴的内容等、暂停或终止用户使用本服务的权利）以减轻用户不当行为造成的影响。
+
+4. 内容所有权
+
+ 4.1 开心街区网提供的本服务内容可能包括：文字、软件、声音、照片、录象、图表等。所有这些内容受版权、商标和其它财产所有权法律的保护。
+4.2 用户只有在获得开心街区网或其他相关权利人的授权之后才能使用这些内容，而不能擅自复制、再造这些内容、或创造与内容有关的派生产品。
+4.3 开心街区网鼓励用户充分利用开心街区网平台自由地张贴和共享自己的信息，但这些内容必须位于公共领域内，或者用户拥有这些内容的使用权。同时，用户对于其创作并在开心街区网上发布的合法内容依法享有著作权及其相关权利。用户不应通过开心街区网张贴其他受版权保护的内容。开心街区网如果收到正式版权投诉，将会删除这些内容。
+4.4 在开心街区网张贴的公开信息
+在本协议中，“本服务公开使用区域”系指一般公众可以使用的区域。
+用户同意已就用户于本服务公开使用区域及本服务其它任何公开使用区域张贴之内容，或包括照片、图形或影音资料等内容，授予开心街区网全球性、免许可费及非独家的使用权，开心街区网可以为了展示、散布及推广张贴前述内容之特定服务目的，将前述内容复制、修改、改写、改编或出版，对于照片及图形资料的上述使用，仅为张贴该照片或图形于本服务之目的而为之。在用户将前述内容放入本服务期间，使用权持续有效；若用户将前述内容自本服务中删除，则使用权于删除时终止。
+用户同意已就用户于本服务其它公开使用区域张贴的其它内容，授予开心街区网免许可费、永久有效、不可撤销、非独家及可完全再授权之权利在全球使用、复制、修改、改写、改编、发行、翻译、创造衍生性著作，及/或将前述内容（部分或全部）加以散布、表演、展示，及/ 或放入利用任何现在已知和未来开发出之形式、媒体和科技之其它著作物当中。
+
+5. 隐私保护
+
+5.1 保护用户隐私是开心街区网的一项基本政策，开心街区网保证不对外公开或向第三方提供用户注册资料及用户在使用本服务时存储在开心街区网的非公开内容，但下列情况除外
+事先获得用户的明确授权；
+根据有关的法律法规要求；
+按照相关政府主管部门的要求；
+为维护社会公众的利益；
+维护开心街区网的合法权益。
+5.2 开心街区网可能会与第三方合作向用户提供相关的本服务，在此情况下，如该第三方同意承担与开心街区网同等的保护用户隐私的责任，则开心街区网可将用户的注册资料等提供给该第三方。
+5.3 在不透露单个用户隐私资料的前提下，开心街区网有权对整个用户数据库进行分析并对用户数据库进行商业上的利用。
+
+6. 免责声明
+
+6.1 用户将照片、个人信息等资料上传到互联网上，有可能会被其他组织或个人复制、转载、擅改或做其它非法用途，用户必须充分意识此类风险的存在。用户明确同意其使用开心街区网服务所存在的风险（包括但不限于受到第三方侵权或对第三方造成侵权）将完全由其自己承担；因其使用开心街区网服务而产生的一切后果也由其自己承担，开心街区网对此不承担任何责任。
+6.2 开心街区网不担保本服务一定能满足用户的要求，也不担保本服务不会中断，对本服务的及时性、安全性、准确性、真实性、完整性也都不作担保。
+6.3 开心街区网不保证为向用户提供便利而设置的外部链接的准确性和完整性，同时，对于该等外部链接指向的不由开心街区网实际控制的任何网页上的内容，开心街区网不承担任何责任。
+6.4 对于因不可抗力或开心街区网不能控制的原因造成的本服务中断或其它缺陷，开心街区网不承担任何责任，但将尽力减少因此而给用户造成的损失和影响。
+6.5 根据有关法律法规，开心街区网在此郑重提请用户注意，任何经由本服务以上载、张贴、发送电子邮件或任何其它方式传送的资讯、资料、文字、软件、音乐、音讯、照片、图形、视讯、信息或其它资料（以下简称“内容”），无论系公开还是私下传送，均由内容提供者承担责任。开心街区网无法控制经由本服务传送之内容，因此不保证内容的正确性、完整性或品质。在任何情况下，开心街区网均不为任何内容负责，包含但不限于任何内容之任何错误或遗漏，以及经由本服务以张贴、发送电子邮件或其它方式传送任何内容而衍生之任何损失或损害。但开心街区网有权依法停止传输任何前述内容并采取相应行动，包括但不限于暂停用户使用本服务的全部或部分，保存有关记录，并向有关机关报告。
+6.6 开心街区网作为网络服务提供者，对非法转载，虚假发布、盗版行为的发生不具备充分的监控能力。开心街区网对他人在网站上实施的此类侵权行为不承担法律责任，侵权的法律责任概由本人承担。
+
+7. 服务变更、中断或终止
+
+7.1 如因系统维护或升级的需要而需暂停本服务，开心街区网将尽可能事先进行通告。
+7.2 如发生下列任何一种情形，开心街区网有权随时中断或终止向用户提供本协议项下的本服务而无需通知用户：
+用户提供的个人资料不真实；
+用户违反本协议中规定的使用规则。
+未经开心街区网同意，将开心街区网平台用于商业目的
+7.3 除前款所述情形外，开心街区网同时保留在不事先通知用户的情况下随时中断或终止部分或全部本服务的权利，对于所有服务的中断或终止而造成的任何损失，开心街区网无需对用户或任何第三方承担任何责任。
+
+8. 违约赔偿
+
+用户同意保障和维护开心街区网及其他用户的利益，如因用户违反有关法律、法规或本协议项下的任何条款而给开心街区网或任何其他第三人造成损失，用户同意承担由此造成的损害赔偿责任。
+
+9. 禁止商业行为
+
+用户同意不对本服务任何部分或本服务之使用或获得，进行复制、拷贝、出售、转售或用于任何其它商业目的。
+
+10. 与广告商进行之交易
+
+用户通过本服务与广告商进行任何形式的通讯或商业往来，或参与促销活动，包含相关商品或服务之付款及交付，以及达成的其它任何相关条款、条件、保证或声明，完全为用户与广告商之间之行为。有关法律法规有明文规定要求开心街区网承担责任以外，用户因前述任何交易或前述广告商而遭受的任何性质的损失或损害，开心街区网均不予负责。
+
+11. 链接
+
+本服务或第三人可提供与其它国际互联网上之网站或资源之链接。由于开心街区网无法控制这些网站及资源，用户了解并同意，此类网站或资源是否可供利用，开心街区网不予负责，存在或源于此类网站或资源之任何内容、广告、产品或其它资料，开心街区网亦不予保证或负责。因使用或依赖任何此类网站或资源发布的或经由此类网站或资源获得的任何内容、商品或服务所产生的任何损害或损失，开心街区网不负任何直接或间接之责任。
+
+12. 开心街区网之专属权利
+
+用户了解并同意，本服务及本服务所使用之相关软件（以下简称“软件”）含有受到相关知识产权及其它法律保护之专有保密资料。用户也了解并同意，经由本服务或广告商向用户呈现之赞助广告或信息所包含之内容，亦受到著作权、商标权、服务商标、专利权或其它专属权利之法律保护。未经开心街区网或广告商明示授权，用户不得修改、出租、出借、出售、散布本服务或软件之任何部份或全部，或据以制作衍生著作，或使用擅自修改后的软件，包括但不限于为了未经授权而使用本服务之目的。开心街区网仅授予用户个人、不可移转及非专属之使用权，使用户得于单机计算机使用其软件之目的码，但用户不得（并不得允许任何第三人）复制、修改、创作衍生著作、进行还原工程、反向组译，或以其它方式发现原始码，或出售、转让、再授权或提供软件设定担保，或以其它方式移转软件之任何权利。用户同意将通过由开心街区网所提供的界面而非任何其它途径使用本服务。
+
+13. 担保与保证
+
+用户明确了解并同意∶
+a. 用户使用本服务之风险由用户个人负担。本服务系依“现状”及“现有”基础提供。开心街区网对本服务不提供任何明示或默示的担保或保证，包含但不限于商业适售性、特定目的之适用性及未侵害他人权利等担保或保证。
+b. 开心街区网不保证以下事项∶
+c. 本服务将符合用户的要求，
+本服务将不受干扰、及时提供、安全可靠或不会出错；
+使用本服务取得之结果正确可靠；
+用户经由本服务购买或取得之任何产品、服务、资讯或其它信息将符合用户的期望；
+软件和网页信息中任何错误都将得到更正；
+d. 是否使用本服务下载或取得任何资料应由用户自行考虑且自负风险，因任何资料之下载而导致的用户电脑系统之任何损坏或数据流失等后果，由用户自行承担。
+e. 用户自开心街区网或经由本服务取得的任何建议或信息，无论是书面或口头形式，除非本协议有明确规定，将不构成本协议以外之任何保证。
+
+14. 责任限制
+
+用户明确了解并同意，基于以下原因而造成的，包括但不限于利润、信誉、应用、数据损失或其它无形损失，开心街区网不承担任何直接、间接、附带、特别、衍生性或惩罚性赔偿责任（即使开心街区网事先已被告知发生此种赔偿之可能性亦然）：
+本服务之使用或无法使用；
+为替换从或通过本服务购买或取得之任何商品、数据、信息、服务，收到的讯息，或缔结之交易而发生的成本；
+用户的传输或数据遭到未获授权的存取或变造；
+任何第三方在本服务中所作之声明或行为；
+与本服务相关的其它事宜，但本协议有明确规定的除外；
+第三方以任何方式发布或投递欺诈性信息，或诱导用户受到经济损失，开心街区网不承担任何责任。
+
+15. 协议修改
+
+15.1 开心街区网将有权随时修改本协议的有关条款，一旦本协议的内容发生变动，开心街区网将会通过适当方式在网站上提示。
+15.2 如果不同意开心街区网对本协议相关条款所做的修改，用户有权停止使用本服务。如果用户继续使用本服务，则视为用户接受开心街区网对本协议相关条款所做的修改。
+
+16. 法律管辖
+
+16.1 本协议的订立、执行和解释及争议的解决均应适用中国法律。
+16.2 如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决。
+ 
+17. 通知和送达
+
+本协议项下所有的通知均可通过重要页面公告、电子邮件或常规的信件传送等方式进行；该等通知于发送之日视为已送达收件人。
+
+18. 其他规定
+
+18.1 本协议构成双方对本协议之约定事项及其他有关事宜的完整协议，除本协议规定的之外，未赋予本协议各方其他权利。
+18.2 如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。
+18.3 本协议所有条款的最终解释权属于开心街区网。
+		"</string>
+    <!-- tts -->
+    <string name="main_info">新资讯</string>
+    <string name="hy">好友</string>
+    <string name="txl">通讯录</string>
+    <string name="dt">地图</string>
+    <string name="weather_du">℃</string>
+    <string name="weather_updating">同步中…</string>
+    <string name="msctitle">开心听</string>
+    <string name="main_weath">看看天气</string>
+    <string name="main_weibo">关注微博</string>
+    <string name="main_other">更多应用</string>
+    <string name="main_msctts">开心听</string>
+    <string name="mscappid">51490018</string>
+    <string name="msctts">语音设置</string>
+    <string name="msctts_summary">设置语音相关参数</string>
+    <string name="preference_title_tts">合成设置</string>
+    <string name="preference_key_tts_show">tts_show</string>
+    <string name="preference_title_tts_show">显示合成界面</string>
+    <string name="preference_key_tts_role">tts_role</string>
+    <string name="preference_title_tts_role">发音人</string>
+    <string-array name="preference_entries_tts_role">
+        <item>晓燕</item>
+        <item>晓宇</item>
+        <item>小研</item>
+        <item>小琪</item>
+        <item>小峰</item>
+        <item>小梅</item>
+        <item>小莉</item>
+        <item>小蓉</item>
+        <item>小芸</item>
+        <item>小坤</item>
+        <item>小强 </item>
+        <item>小莹</item>
+        <item>小新</item>
+        <item>楠楠</item>
+        <item>老孙</item>
+    </string-array>
+    <string-array name="preference_values_tts_role">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>vixq</item>
+        <item>vixf</item>
+        <item>vixm</item>
+        <item>vixl</item>
+        <item>vixr</item>
+        <item>vixyun</item>
+        <item>vixk</item>
+        <item>vixqa</item>
+        <item>vixying</item>
+        <item>vixx</item>
+        <item>vinn</item>
+        <item>vils</item>
+    </string-array>
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_dialog_title_tts_role">选择发音人</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_music">tts_music</string>
+    <string name="preference_title_tts_music">背景音乐</string>
+    <string-array name="preference_entries_tts_music">
+        <item>无背景音乐</item>
+        <item>背景音乐1</item>
+    </string-array>
+    <string-array name="preference_values_tts_music">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="preference_default_tts_music">0</string>
+    <string name="preference_dialog_title_tts_music">选择背景音乐</string>
+</resources>

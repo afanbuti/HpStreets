@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/baidumapapi_v2_0_0-29f8b29c3e8aea9fc97a23a204bf204c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/appflood_cn_v1.4-ed0cd55b3c26396fd3f222d9837359c8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/signpost-core-1.2.1.1-b7d254d9d3f83383d135ee51529bae05.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/weibo4android-3a46c7c43f5d4ffc112961824e19e6b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/ksoap2-android-assembly-3.0.0-bda506a3fcc4931b07c6e58a2fc14ec2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/google-gson-stream-1.7.1-c7dab2024a2b57b35b16345c553ff414.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/ksoap2-android-assembly-2.5.8-bcee8a6a8e1b88187ffee378754fd8bf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gson-1.7.1-f4f0746e9ea733888cd9597646244858.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mongo-2.6.5-ab9e99db2e59e161e12b312ca1aa87e8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/Analytics_Android_SDK_3.0-53c24e9412a15aa867fae01753256bfe.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/locSDK_3.1-4e9e2121d876c8dcae9618b15708c600.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/fastjson-1.1.6-93299bde9da8b9e72a1e3200e71c3384.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/umeng_appnetwork_android_sdk-eecdb07665fbf3a6ffa44f6ea4f19ca9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/Umeng-Android-SDK-SnsService-46e837d19c832ce4712796fc00e92075.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/annotations-eb4ce4c36d24f97118d08e35f6808de9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpmime-4.1.1-40e003f3a3c4644d8dc9138544fa5301.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gson-1.6-0d3b6003457cdbb4661c118fd09bdd9d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/Mars-9f74eedcb9b182ab5d34ea5f191865e7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/locSDk-d2adbbbacc1e629cb16aff25d57e4ade.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/signpost-commonshttp4-1.2.1.1-9a2ad063b1632065d1e4f4889e93be49.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/baidumapapi-273ea1794fc87a693961f59cd22d8215.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/commons-httpclient-3.1-ae625677e0283873f9e6b25ac6fbfa88.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/Msc-f1c785c5704c17ead985e5e6bea44125.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/Analytics_Android_SDK_3.1.0-74637b5debf2a524b49cc1c3380f1d6c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/Baidu_MobAds_SDK_3.2-4abbde253e2a7fe7f58b62b2f27aa682.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/public_mood_edit_bg"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+
+</TabHost><!--
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<TabWidget android:id="@android:id/tabs" android:background="@drawable/tab_item_bg"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true" color="@color/white"/>
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_above="@android:id/tabs"
+				android:layout_alignParentTop="true" android:background="@drawable/public_mood_edit_bg">
+				<FrameLayout android:id="@android:id/tabcontent"
+					android:layout_width="fill_parent" android:layout_height="fill_parent" />
+			</LinearLayout>
+		</RelativeLayout>
+	</TabHost>
+</merge>
+-->
+<!--
+		<FrameLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"> </FrameLayout>
+-->
+<!--
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<RadioGroup android:gravity="center_vertical"
+			android:layout_gravity="top" android:orientation="horizontal"
+			android:id="@+id/main_radio" android:background="@drawable/maintab_toolbar_bg"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<RadioButton android:id="@+id/radio_button0" android:tag="radio_button0"
+				android:layout_marginTop="2.0dip" android:text="@string/main_home"
+				android:drawableTop="@drawable/icon_2_n" style="@style/main_tab_bottom" />
+			<RadioButton android:id="@+id/radio_button1" android:tag="radio_button1"
+				android:layout_marginTop="2.0dip" android:text="@string/main_news"
+				android:drawableTop="@drawable/icon_1_n" style="@style/main_tab_bottom" />
+			<RadioButton android:id="@+id/radio_button2" android:tag="radio_button2"
+				android:layout_marginTop="2.0dip" android:text="@string/main_my_info"
+				android:drawableTop="@drawable/icon_3_n" style="@style/main_tab_bottom" />
+		</RadioGroup>
+		<TabWidget android:id="@android:id/tabs" android:visibility="gone"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="0.0" />
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_weight="1.0" />
+	</LinearLayout>
+</TabHost>
+-->

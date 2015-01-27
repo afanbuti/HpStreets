@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exchange_rootId"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ECECEC" >
+
+    <!-- header app title -->
+
+    <include
+        android:id="@+id/exchange_banner"
+        layout="@layout/exchange_component_focus_banner" />
+
+    <RelativeLayout
+        android:id="@+id/exchange_detail0"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:layout_above="@+id/exchange_bottom"
+        android:layout_below="@+id/exchange_banner"
+        android:background="#ECECEC" >
+
+        <include layout="@layout/exchange_component_foucused_app" />
+    </RelativeLayout>
+
+    <!-- app list -->
+
+    <ListView
+        android:id="@+id/exchange_list"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:background="#ECECEC"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:stackFromBottom="true" >
+    </ListView>
+
+    <include
+        android:id="@+id/exchange_bottom"
+        layout="@layout/exchange_component_back_bottom" />
+
+</RelativeLayout>

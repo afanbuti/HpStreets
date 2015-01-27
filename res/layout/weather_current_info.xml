@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@+id/cityview_detail" android:background="@drawable/finger_press" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@+id/layout_cityview_public">
+        <TextView android:textSize="@dimen/weather_current_info_size_big" android:textColor="@color/white" android:id="@+id/cityview_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+        <TextView android:textSize="@dimen/weather_current_info_size_normal" android:textColor="@color/white" android:id="@+id/cityview_temp_range" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+        <TextView android:textSize="@dimen/weather_current_info_size_normal" android:textColor="@color/white" android:id="@+id/cityview_wind" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_cityview_public" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/weather_current_info_size_small" android:textColor="@color/white" android:id="@+id/cityview_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>
